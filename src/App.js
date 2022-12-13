@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ColorSchemesExample from './components/Navbar';
+import myPhoto from "./assets/Edited Headshot.png"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ColorSchemesExample />
+      <div className="slogan-ctn">
+      <h1 className="d-md-none d-sm-block">A software developer based in <br/>Seattle, WA. </h1>
+      <h1 className="slogan-main d-none d-md-block">A software developer based in <br/>Seattle, WA. </h1>
+      <img clssName="my-photo" src="{myPhoto}" alt="pic"/>
+      <div >
+      <button>View Projects</button>
+      </div>
+      </div>
     </div>
   );
 }

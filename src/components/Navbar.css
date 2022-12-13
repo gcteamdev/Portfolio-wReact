@@ -1,0 +1,134 @@
+/* --Hamza brand css-- */
+.button {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 130px;
+    border: none;
+    font-size: 12px;
+    height: 45px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+    overflow: hidden;
+    box-shadow: 0 10px 50px #006eff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .button .ten {
+    line-height: 52px;
+  }
+  .button:hover{
+    color:white!important;
+  }
+  
+  .button:hover .slidein {
+    left: 0%;
+  }
+  
+  .button:hover .two {
+    left: 0%;
+    transition-delay: 1.5s;
+  }
+  
+  .button:hover .three {
+    left: 0%;
+    transition-delay: 3s;
+  }
+  
+  .button:hover .four {
+    left: 0%;
+    transition-delay: 4.5s;
+  }
+  
+  .button:hover .five {
+    left: 0%;
+    transition-delay: 6s;
+  }
+  
+  .button:hover .six {
+    left: 0%;
+    transition-delay: 7.5s;
+  }
+  
+  .button:hover .seven {
+    left: 0%;
+    transition-delay: 9s;
+  }
+  
+  .button:hover .eight {
+    left: 0%;
+    transition-delay: 10.5s;
+  }
+  
+  .button:hover .nine {
+    left: 0%;
+    transition-delay: 12s;
+  }
+  
+  .button:hover .ten {
+    left: 0%;
+    transition-delay: 14s;
+  }
+  
+  .button .slidein {
+    background: #d0d3d5;
+    left: -100%;
+    z-index: 2;
+  }
+  
+  .button a {
+    text-transform: capitalize;
+    transition: left 300ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    position: absolute;
+    font-weight: bold;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .slidein:nth-child( even) {
+    background: #539b3d !important;
+  }
+  
+  .slidein:nth-child( odd) {
+    background: #ea8927 !important;
+  }
+
+  /* --Hamza brand css END-- */
+  .nav-link{
+    color:white !important;
+    border-radius: 15px;
+    width:10vw;
+    text-align: center;
+  }
+  .nav-link:hover{
+    background-color: #8b868286;
+    border-radius: 15px;
+    transition: .5s;
+  }
+  .navbar-nav{
+    background-color: #dfe4e912;
+    width: 90%;
+    margin-left:5%;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .navbar-toggler-icon{
+    color:white !important;
+    background-color: #b9c4d0ec;
+    border-radius: 5px
+  }
