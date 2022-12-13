@@ -6,7 +6,7 @@ import './Navbar.css';
 function ColorSchemesExample() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg p-3">
 
         <div className="button btn-white">
           <a className="first"> H A M Z A </a>

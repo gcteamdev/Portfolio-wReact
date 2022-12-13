@@ -3,8 +3,6 @@ background-color: #1D2127;
 height:100vh;
 width:100vw;
 color:#C4CFDE;
-
-
 }
 
 /* 
@@ -63,7 +61,4 @@ button:hover {
 .slogan-main{
   font-size: 80px;
   font-weight: bold;
-}
-.my-photo{
-  
 }

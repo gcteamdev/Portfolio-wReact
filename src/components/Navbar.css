@@ -106,6 +106,9 @@
   }
 
   /* --Hamza brand css END-- */
+  .navbar{
+    position: fixed;
+  }
   .nav-link{
     color:white !important;
     border-radius: 15px;
