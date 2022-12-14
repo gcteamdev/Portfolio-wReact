@@ -16,7 +16,7 @@
     margin: 0.5em 0;
     padding: 0.8em 2.2em;
     cursor: pointer;
-    background: #FFFFFF;
+    background: #ea354a;
     border: none;
     border-radius: 0.4em;
     text-transform: uppercase;
@@ -26,7 +26,7 @@
     mix-blend-mode: color-dodge;
     perspective: 500px;
     transform-style: preserve-3d;
-    color:#FF014F
+    color:rgb(15, 15, 59)
    }
    
    button:before, button:after {
@@ -160,7 +160,7 @@
   .my-pic{
     border-radius: 35px;
     position:fixed;
-    left:70%
-  /*   opacity: .7; */
+    left:70%;
+    opacity: .7;
     
   }

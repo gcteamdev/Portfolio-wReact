@@ -1,0 +1,97 @@
+.mobile-App {
+  background-color: #202735;
+  height: 100% !important;
+  width: 100vw;
+  color: #aaa;
+  z-index: 99;
+  position: sticky;
+  background-image: url("../../assets/Group 6806.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:5%;
+  
+
+}
+.mobile-app-header{
+    font-size: 60px;
+    font-weight:bold;
+    color:rgb(240, 78, 78);
+}
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .source-mobile-code{
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .default-nav{
+    background-color:rgba(190, 190, 187, 0.332)!important;
+    color:red !important;
+    height:10vh !important;
+    padding:4%;
+  }
+  .slide-1{
+    background-image: url('../../assets/Home_iphone13blue_portrait.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30%;
+    height:70vh;
+    margin:auto;
+  }
+  .slide-2{
+    background-image: url("../../assets/Login_iphone13blue_portrait.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30%;
+    height:100%;
+    margin:auto;
+  }
+  .slide-3{
+    background-image: url('../../assets/Profile_iphone13blue_portrait.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30%;
+    height:100%;
+    margin:auto;
+  }
+  .slide-4{
+    background-image: url('../../assets/About SEL_iphone13blue_portrait.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30%;
+    height:100%;
+    margin:auto;
+  }
+  .slide-5{
+    background-image: url('../../assets/ActivityFinal_iphone13blue_portrait.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30%;
+    height:100%;
+    margin:auto;
+  }
+  .slide-6{
+    background-image: url('../../assets/Guardian - Self-Care_iphone13blue_portrait.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30%;
+    height:100%;
+    margin:auto;
+  }

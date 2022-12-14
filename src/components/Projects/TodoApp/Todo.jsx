@@ -5,7 +5,7 @@ function Todo({ input,index }) {
   return (
    
       <div className="List-renderer-inner mb-2 text-white">
-        <div className="container">
+        <div className="container todo-ctn">
         <div className="box mx-auto">
           <span className="title">
           <ul>

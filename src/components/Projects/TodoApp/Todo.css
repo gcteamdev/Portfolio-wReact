@@ -1,14 +1,16 @@
 .todo-App {
-  background-color: #e8edf6;
+  background-color: #202735;
   height: 100vh !important;
   width: 100vw;
-  color: #0c0d0f;
+  color: #aaa;
   z-index: 99;
   position: sticky;
   display: flex;
 }
 .todoApp-Header {
   font-size: 60px;
+  font-weight:bold;
+  color:rgb(121, 32, 32);
 }
 .form-and-renderer-wrapper {
   background-color: #273044;
@@ -23,7 +25,7 @@
 }
 .source-Todo-ctn {
   display: flex;
-  margin-top: 1%;
+  margin-top: 10%;
 }
 .source-code-btn:hover {
   color: white !important;
@@ -55,19 +57,19 @@
     font-size: xx-small;
 }
 
-.container {
+.todo-ctn {
   position: relative;
 }
 
-.container::before,
-.container::after {
+.todo-ctn::before,
+.todo-ctn::after {
   content: '';
   background-color: #ff5858;
   position: absolute;
   right: 40% !important;
 }
 
-.container::before {
+.todo-ctn::before {
   border-radius: 50%;
   width: 6rem;
   height: 6rem;
@@ -75,7 +77,7 @@
   right: 7%;
 }
 
-.container::after {
+.todo-ctn::after {
   content: '';
   position: absolute;
   height: 3rem;
@@ -84,7 +86,7 @@
   border: 1px solid;
 }
 
-.container .box {
+.todo-ctn .box {
   width: 11.875em;
   height: 15.875em;
   padding: 1rem;
@@ -96,41 +98,41 @@
   transition: all ease 0.3s;
 }
 
-.container .box {
+.todo-ctn .box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.container .box .title {
+.todo-ctn .box .title {
   font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.1em;
 }
 
-.container .box div strong {
+.todo-ctn .box div strong {
   display: block;
   margin-bottom: 0.5rem;
 }
 
-.container .box div p {
+.todo-ctn .box div p {
   margin: 0;
   font-size: 0.9em;
   font-weight: 300;
   letter-spacing: 0.1em;
 }
 
-.container .box div span {
+.todo-ctn .box div span {
   font-size: 0.7rem;
   font-weight: 300;
 }
 
-.container .box div span:nth-child(3) {
+.todo-ctn .box div span:nth-child(3) {
   font-weight: 500;
   margin-right: 0.2rem;
 }
 
-.container .box:hover {
+.todo-ctn .box:hover {
   box-shadow: 0px 0px 20px 1px #ffbb763f;
   border: 1px solid rgba(255, 255, 255, 0.454);
 }
