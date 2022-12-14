@@ -1,64 +1,26 @@
 .App{
 background-color: #1D2127;
-height:100vh;
+height:100% !important;
 width:100vw;
 color:#C4CFDE;
 }
 
-/* 
----Code learn code --- */
-button {
-  width: 10em;
-  position: relative;
-  height: 3.5em;
-  border: 3px ridge #149CEA;
-  outline: none;
-  background-color: transparent;
-  color: white;
-  transition: 1s;
-  border-radius: 0.3em;
-  font-size: 16px;
-  font-weight: bold;
-}
 
-button::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 3%;
-  width: 95%;
-  height: 40%;
-  background-color: #212121;
-  transition: 0.5s;
-  transform-origin: center;
+.vector{
+  width:100vw;
+  position:absolute;
+  top:65%;
+  height:60vh;
 }
-
-button::before {
-  content: "";
-  transform-origin: center;
-  position: absolute;
-  top: 80%;
-  left: 3%;
-  width: 95%;
-  height: 40%;
-  background-color: #212121;
-  transition: 0.5s;
+.vector-2{
+  width:100vw;
+  position:absolute;
+  top:60%;
+  height:80vh; 
 }
-
-button:hover::before, button:hover::after {
-  transform: scale(0)
-}
-
-button:hover {
-  box-shadow: inset 0px 0px 25px #1479EA;
-}
-/* ---Code learn Code End* --- */
-
-.slogan-ctn{
-  text-align: center;
-  margin-top: 10%;
-}
-.slogan-main{
-  font-size: 80px;
-  font-weight: bold;
+.vector-3{
+  width:100vw;
+  position:absolute;
+  top:85%;
+  height:80vh; 
 }

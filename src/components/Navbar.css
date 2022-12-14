@@ -30,47 +30,47 @@
   
   .button:hover .two {
     left: 0%;
-    transition-delay: 1.5s;
+    transition-delay: .5s;
   }
   
   .button:hover .three {
     left: 0%;
-    transition-delay: 3s;
+    transition-delay: 1s;
   }
   
   .button:hover .four {
     left: 0%;
-    transition-delay: 4.5s;
+    transition-delay: 2s;
   }
   
   .button:hover .five {
     left: 0%;
-    transition-delay: 6s;
+    transition-delay: 3s;
   }
   
   .button:hover .six {
     left: 0%;
-    transition-delay: 7.5s;
+    transition-delay: 4s;
   }
   
   .button:hover .seven {
     left: 0%;
-    transition-delay: 9s;
+    transition-delay: 5s;
   }
   
   .button:hover .eight {
     left: 0%;
-    transition-delay: 10.5s;
+    transition-delay: 6s;
   }
   
   .button:hover .nine {
     left: 0%;
-    transition-delay: 12s;
+    transition-delay: 7s;
   }
   
   .button:hover .ten {
     left: 0%;
-    transition-delay: 14s;
+    transition-delay: 8s;
   }
   
   .button .slidein {
@@ -98,17 +98,17 @@
   }
   
   .slidein:nth-child( even) {
-    background: #539b3d !important;
+    background:#FF014F !important;
   }
   
   .slidein:nth-child( odd) {
     background: #ea8927 !important;
   }
+  .first{
+    color:#FF014F !important;
+  }
 
   /* --Hamza brand css END-- */
-  .navbar{
-    position: fixed;
-  }
   .nav-link{
     color:white !important;
     border-radius: 15px;
@@ -134,4 +134,10 @@
     color:white !important;
     background-color: #b9c4d0ec;
     border-radius: 5px
+  }
+  nav{
+    position: sticky!important;
+    top: 0px !important;
+    z-index:9999;
+    background-color: #273044;
   }

@@ -1,0 +1,136 @@
+.todo-App {
+  background-color: #e8edf6;
+  height: 100vh !important;
+  width: 100vw;
+  color: #0c0d0f;
+  z-index: 99;
+  position: sticky;
+  display: flex;
+}
+.todoApp-Header {
+  font-size: 60px;
+}
+.form-and-renderer-wrapper {
+  background-color: #273044;
+}
+.todo-pic {
+  clip-path: polygon(0 0, 45% 0, 59% 100%, 0% 100%);
+}
+.taskiry-outer{
+    position:absolute;
+    width:40vw;
+    right:10%;
+}
+.source-Todo-ctn {
+  display: flex;
+  margin-top: 1%;
+}
+.source-code-btn:hover {
+  color: white !important;
+  background-color: #0c0d0f !important;
+  margin-right: 2% !important;
+}
+.source-code-btn {
+  color: black;
+  margin-right: 2% !important;
+}
+.watch-demo-btn {
+  background-color: #273044 !important;
+}
+.watch-demo-btn:hover {
+  background-color: red !important;
+}
+.List-renderer {
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  align-items: center;
+}
+.List-renderer::-webkit-scrollbar {
+  display: none;
+}
+
+/* --Todo.jsx-- */
+.assignedTo{
+    font-size: xx-small;
+}
+
+.container {
+  position: relative;
+}
+
+.container::before,
+.container::after {
+  content: '';
+  background-color: #ff5858;
+  position: absolute;
+  right: 40% !important;
+}
+
+.container::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 7%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px solid;
+}
+
+.container .box {
+  width: 11.875em;
+  height: 15.875em;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .box .title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.container .box div strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.container .box div p {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.container .box div span {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.container .box div span:nth-child(3) {
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.container .box:hover {
+  box-shadow: 0px 0px 20px 1px #ffbb763f;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
