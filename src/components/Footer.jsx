@@ -98,7 +98,7 @@ function Footer() {
                   <h4 className="media-heading">Life</h4>
                   <p>
                     "None is higher than the other unless he is higher in
-                    virtue!" -PM(PBUH)
+                    virtue!" -Muhammad(PBUH)
                   </p>
                 </div>
               </div>
@@ -115,7 +115,7 @@ function Footer() {
                   <h4 className="media-heading">Coding</h4>
                   <p>
                     "If my mind can conceive it, if my heart can believe
-                    it--then I can achieve it." -Muhammad Ali
+                    it--then I can achieve it." -M. Ali
                   </p>
                 </div>
               </div>
@@ -131,7 +131,7 @@ function Footer() {
                 <div className="media-body">
                   <h4 className="media-heading">Personal</h4>
                   <p>
-                    "Everthing has an easier equation, gotta find it" - Hamza
+                    "Everything has an easier equation, gotta find it" - Hamza
                   </p>
                 </div>
               </div>
@@ -139,7 +139,7 @@ function Footer() {
 
             <div className="col-lg-4">
               <h3>My Work's</h3>
-              <a href="" target="_blank">
+              <a href="https://github.com/gcteamdev" target="_blank">
                 Github
               </a>
             </div>

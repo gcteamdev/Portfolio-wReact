@@ -36,23 +36,24 @@ function ColorSchemesExample() {
           <ul className="navbar-nav mr-auto">
             
             <li className="nav-item">
-              <a className="nav-link " href="#">
-                Features
+              <a className="nav-link " href="https://www.linkedin.com/in/devhamza/"
+                    target="_blank">
+                Linkedin
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
+              <a className="nav-link" href="https://github.com/gcteamdev" target="_blank">
+                Code
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
+              <a className="nav-link" href="mailto:contact@gcteam.dev" >
+                Contact
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
+              <a className="nav-link" href="https://dribbble.com/Hamja188" target="_blank">
+                Design
               </a>
             </li>
           </ul>

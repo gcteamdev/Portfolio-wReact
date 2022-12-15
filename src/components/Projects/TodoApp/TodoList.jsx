@@ -12,14 +12,17 @@ function TodoList() {
     }
   ]);
   return (
-    <div class="todo-App">
-      <img class="todo-pic"src={todoPic} alt="todo-pic" /> 
+    <div class="todo-App d-block d-md-flex" id="todo-app">
+      <img class="todo-pic d-none d-lg-block "src={todoPic} alt="todo-pic" /> 
       <div className="taskiry-outer">
         <h1 className="todoApp-Header">Taskiry</h1>
         <h4 className="">Project management app!</h4>
-        <h2>
-            Create a Task for me!
-        </h2>
+        
+        <div className="wrapper" style={{margin:"auto"}} >
+        <button >Create a task for me</button>
+        </div>
+        <br/>
+        
        <div className="form-and-renderer-wrapper">
        <Todoform  
         input={input}
@@ -36,8 +39,8 @@ function TodoList() {
        </div>
          
         <div className="source-Todo-ctn ">
-        <h6 className="source-code-btn btn btn-lg text-dark bg-white"> Source Code </h6>
-        <h6 className="watch-demo-btn  btn btn-lg btn-dark" > Watch Demo</h6>
+        <a className="source-code-btn btn btn-lg text-dark bg-white" target='_blank' href="https://github.com/gcteamdev/Tasksiry.git"> Source Code </a>
+        <a className="watch-demo-btn  btn btn-lg btn-dark" target="_blank" href="https://www.loom.com/share/7adc6357568549198322e9ccab797474" > Watch Demo</a>
 
         </div>
       </div>

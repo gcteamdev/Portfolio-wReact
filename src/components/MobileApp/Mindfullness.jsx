@@ -32,11 +32,12 @@ function Mindfullness() {
         </div>
       </Slide>
       <div className="source-Todo-ctn source-mobile-code ">
-        <h6 className="source-code-btn btn btn-lg text-dark bg-white">
+        <a className="source-code-btn btn btn-lg text-dark bg-white" target="_blank"
+        href="https://github.com/gcteamdev?tab=repositories">
           {' '}
           Source Code{' '}
-        </h6>
-        <h6 className="watch-demo-btn  btn btn-lg btn-dark"> Watch Demo</h6>
+        </a>
+        <a className="watch-demo-btn  btn btn-lg btn-dark" href="#RNapp"> Watch Demo</a>
       </div>
       <br/> <br/><br/>
     </div>

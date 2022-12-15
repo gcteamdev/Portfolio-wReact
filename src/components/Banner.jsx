@@ -7,7 +7,7 @@ function Banner() {
   return (
     <div>
         <div className="slogan-ctn">
-        <img className="my-pic" src={myPhoto} alt="pic" />
+        <img className="my-pic d-none d-lg-block" src={myPhoto} alt="pic" />
         <div className="d-block slogan-wrapper">
           <h1 className="d-md-none d-sm-block">
             A software developer based in <br />
@@ -19,7 +19,9 @@ function Banner() {
           </h1>
 
           <div className="wrapper">
+            <a href="#todo-app" style={{textDecoration:"none"}}>
             <button>Projects</button>
+            </a>
           </div>
           <Contact />
         </div>
