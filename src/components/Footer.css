@@ -5,11 +5,12 @@ footer {
     color: #aaa;
     padding-top: 10px;
     position:sticky;
-    height:100vh;
+    height:100%;
     text-align: center;
-    padding:0
+    padding:0;
     
   }
+  
   .footer-svg{
     background-color: #212734;
   }
@@ -17,6 +18,7 @@ footer {
   
   footer a {
     color: #aaa;
+    text-decoration: none;
   }
   
   footer a:hover {
@@ -60,13 +62,12 @@ footer {
   footer .img-thumbnail {
     background: rgba(0, 0, 0, 0.2);
     border: 1px solid #444;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
   }
   
   footer .copyright {
     padding: 15px 0;
     background: #273044;
-    margin-top: 20px;
     font-size: 15px;
   }
   

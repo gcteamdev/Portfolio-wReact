@@ -1,15 +1,13 @@
 .aboutme-page{
     position:sticky;
-    height:100vh;
-    background-image: url("../assets/githubSum.png");
+    height:50vh;
+    background-color: #212734;
+    /* background-image: url("../assets/githubSum.png");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
     
 }
-.aboutMe-pic{
-  top: 50%;
-  left: 50%;
-  
-  opacity:1;
-  display:none;
+.contact-outer{
+  width:100vw;
+  justify-content: space-evenly;
 }
