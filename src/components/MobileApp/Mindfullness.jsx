@@ -39,22 +39,22 @@ function Mindfullness() {
       {/* --for mobile */}
       <div className="d-lg-none d-sm-block mobile-app-slider">
       <Slide >
-        <div className="each-slide-effect p-5">
+        <div className="each-slide-effect ">
           <div className="slide-1 slide-mobile">{/* <span>Slide 1</span> */}</div>
         </div>
-        <div className="each-slide-effect p-5">
+        <div className="each-slide-effect">
           <div className="slide-2 slide-mobile">{/* <span>Slide 2</span> */}</div>
         </div>
-        <div className="each-slide-effect p-5">
+        <div className="each-slide-effect">
           <div className="slide-3 slide-mobile">{/* <span>Slide 3</span> */}</div>
         </div>
-        <div className="each-slide-effect p-5">
+        <div className="each-slide-effect ">
           <div className="slide-4 slide-mobile">{/* <span>Slide 3</span> */}</div>
         </div>
-        <div className="each-slide-effect p-5">
+        <div className="each-slide-effect ">
           <div className="slide-5 slide-mobile">{/* <span>Slide 3</span> */}</div>
         </div>
-        <div className="each-slide-effect p-5">
+        <div className="each-slide-effect ">
           <div className="slide-6 slide-mobile">{/* <span>Slide 3</span> */}</div>
         </div>
       </Slide>
