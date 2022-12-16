@@ -8,8 +8,9 @@ function Banner() {
     <div>
         <div className="slogan-ctn">
         <img className="my-pic d-none d-lg-block" src={myPhoto} alt="pic" />
-        <div className="d-block slogan-wrapper">
-          <h1 className="d-md-none d-sm-block">
+        <img className="my-pic d-md-none d-sm-block mobile-pic" src={myPhoto} alt="pic" />
+        <div className="d-block slogan-wrapper ">
+          <h1 className="d-md-none d-sm-block mobile-header">
             A software developer based in <br />
             Seattle, WA.
           </h1>
@@ -19,7 +20,10 @@ function Banner() {
           </h1>
 
           <div className="wrapper">
-            <a href="#todo-app" style={{textDecoration:"none"}}>
+            <a  className="d-none d-md-block" href="#todo-app" style={{textDecoration:"none"}}>
+            <button>Projects</button>
+            </a>
+            <a  className="d-md-none d-sm-block mobile-projects-btn" href="#todo-app" style={{textDecoration:"none"}}>
             <button>Projects</button>
             </a>
           </div>

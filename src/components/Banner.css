@@ -165,3 +165,19 @@
     opacity: .7;
     
   }
+
+  .mobile-header{
+    font-weight: bold;
+    width:100vw;
+    margin-left:40%;
+    padding:5%;
+  }
+  .mobile-pic{
+    width:30%;
+    margin-top:60%;
+    position:absolute;
+    
+  }
+  .mobile-projects-btn{
+    position: absolute;
+  }

@@ -95,3 +95,11 @@ Slide {
   height: 100%;
   margin: auto;
 }
+.mobileApp-h1{
+  font-size: 58px;
+}
+.slide-mobile{
+  width:119.5%;
+  padding:10;
+  position:static;
+}

@@ -8,10 +8,12 @@ function Mindfullness() {
     <div className="mobile-App">
       <br /> <br />
       <br />
-      <h1 className="mobile-app-header"> Mindfullness App</h1>
+      <h1 className="mobile-app-header d-none d-md-block"> Mindfulness App</h1>
+      <h1 className="mobile-app-header d-md-none d-sm-block mobileApp-h1"> Mindfulness App</h1>
       <h3 className="mb-3"> Tech stack: React-Native, Redux, Expo-CLI </h3>
       {/*  -- Slideshow-- */}
-      <Slide>
+      <div className="d-none d-lg-block">
+      <Slide >
         <div className="each-slide-effect p-5">
           <div className="slide-1">{/* <span>Slide 1</span> */}</div>
         </div>
@@ -31,6 +33,33 @@ function Mindfullness() {
           <div className="slide-6">{/* <span>Slide 3</span> */}</div>
         </div>
       </Slide>
+
+      </div>
+      
+      {/* --for mobile */}
+      <div className="d-lg-none d-sm-block mobile-app-slider">
+      <Slide >
+        <div className="each-slide-effect p-5">
+          <div className="slide-1 slide-mobile">{/* <span>Slide 1</span> */}</div>
+        </div>
+        <div className="each-slide-effect p-5">
+          <div className="slide-2 slide-mobile">{/* <span>Slide 2</span> */}</div>
+        </div>
+        <div className="each-slide-effect p-5">
+          <div className="slide-3 slide-mobile">{/* <span>Slide 3</span> */}</div>
+        </div>
+        <div className="each-slide-effect p-5">
+          <div className="slide-4 slide-mobile">{/* <span>Slide 3</span> */}</div>
+        </div>
+        <div className="each-slide-effect p-5">
+          <div className="slide-5 slide-mobile">{/* <span>Slide 3</span> */}</div>
+        </div>
+        <div className="each-slide-effect p-5">
+          <div className="slide-6 slide-mobile">{/* <span>Slide 3</span> */}</div>
+        </div>
+      </Slide>
+      </div>
+      
       <div className="source-Todo-ctn source-mobile-code ">
         <a className="source-code-btn btn btn-lg text-dark bg-white" target="_blank"
         href="https://github.com/gcteamdev?tab=repositories">

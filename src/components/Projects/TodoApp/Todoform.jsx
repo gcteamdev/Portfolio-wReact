@@ -9,7 +9,7 @@ function Todoform({input, setInput, todos, setTodos}) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} >
       <div className="containerInput">
         <input
           placeholder="Add a task!"
@@ -20,9 +20,8 @@ function Todoform({input, setInput, todos, setTodos}) {
             setInput(e.target.value);
           }}
         />
-      </div>
-      <div
-        className="add-task"
+       <div
+        className="add-task d-none d-md-block"
         type="submit"
         onClick={() => {
           if (input !== '') {
@@ -33,6 +32,21 @@ function Todoform({input, setInput, todos, setTodos}) {
       >
         <AddTaskIcon />
         </div>
+      {/*   --for mobile-- */}
+      <div
+        className="add-task mobile-addTask-btn"
+        type="submit"
+        onClick={() => {
+          if (input !== '') {
+            setTodos([...todos, { inputTask: input }]);
+            setInput('');
+          }
+        }}
+      >
+        <AddTaskIcon />
+        </div>
+      </div>
+      
     </form>
   );
 }

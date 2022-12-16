@@ -5,7 +5,7 @@ import Banner from './components/Banner';
 import TodoList from './components/Projects/TodoApp/TodoList';
 import Mindfullness from './components/MobileApp/Mindfullness';
 import Footer from './components/Footer';
-import AboutMe from './components/AboutMe';
+import Demo from './components/Demo';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <TodoList />
       </div>
       <Mindfullness />
-      <AboutMe />
+      <Demo />
       <Footer />
       
       
