@@ -2,82 +2,89 @@
 import { Nav } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css';
+import React, { useState } from 'react';
+import {
+  MDBNavbar,
+  MDBContainer,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBNavbarToggler,
+  MDBNavbarBrand,
+  MDBCollapse,
+} from 'mdb-react-ui-kit';
 
 function ColorSchemesExample() {
+  const [showNavColorSecond, setShowNavColorSecond] = useState(false);
   return (
     <>
-      <nav className="navbar navbar-expand-lg p-3">
+      <MDBNavbar expand="lg" dark bgColor="dark">
+        <MDBContainer fluid>
+          <div className="button btn-white">
+            <a className="first"> H A M Z A </a>
+            <a className="slidein"> Hi!</a>
+            <a className="slidein two"> Thank you </a>
+            <a className="slidein three"> For Visiting </a>
+            <a className="slidein four"> Hope you are </a>
+            <a className="slidein five"> Having a </a>
+            <a className="slidein six"> ...great day!</a>
+            <a className="slidein seven"> ...Smile </a>
+            <a className="slidein eight"> Solve it all </a>
+            <a className="slidein nine"> ...So, </a>
+            <a className="slidein ten"> Let's Smile! </a>
+          </div>
 
-        <div className="button btn-white">
-          <a className="first"> H A M Z A </a>
-          <a className="slidein"> Hi!</a>
-          <a className="slidein two"> Thank you </a>
-          <a className="slidein three"> For Visiting </a>
-          <a className="slidein four"> Hope you are </a>
-          <a className="slidein five"> Having a </a>
-          <a className="slidein six"> ...great day!</a>
-          <a className="slidein seven"> ...Smile </a>
-          <a className="slidein eight"> Solve it all </a>
-          <a className="slidein nine"> ...So, </a>
-          <a className="slidein ten"> Let's Smile! </a>
-        </div>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon "></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav mr-auto">
-            
-            <li className="nav-item">
-              <a className="nav-link " href="https://www.linkedin.com/in/devhamza/"
-                    target="_blank">
-                Linkedin
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://github.com/gcteamdev" target="_blank">
-                Code
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="mailto:contact@gcteam.dev" >
-                Contact
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://dribbble.com/Hamja188" target="_blank">
-                Design
-              </a>
-            </li>
-          </ul>
-       
-        </div>
-      </nav>
+          {/* <MDBNavbarBrand href='#'>Navbar</MDBNavbarBrand> */}
+          <MDBNavbarToggler
+            type="button"
+            data-target="#navbarColor02"
+            aria-controls="navbarColor02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick={() => setShowNavColorSecond(!showNavColorSecond)}
+            className="mr-5 bg-white"
+          >
+            <MDBIcon icon="bars" fas />
+          </MDBNavbarToggler>
+          <MDBCollapse show={showNavColorSecond} navbar id="navbarColor02">
+            <MDBNavbarNav className="me-auto mb-2 mb-lg-0">
+              <MDBNavbarItem className="">
+                <MDBNavbarLink
+                  aria-current="page"
+                  href="https://www.linkedin.com/in/devhamza/"
+                  target="_blank"
+                >
+                  Linkedin
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink
+                  href="https://github.com/gcteamdev"
+                  target="_blank"
+                >
+                  Code
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href="mailto:contact@gcteam.dev">
+                  Contact
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink
+                  href="https://dribbble.com/Hamja188"
+                  target="_blank"
+                >
+                  Design
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+            </MDBNavbarNav>
+          </MDBCollapse>
+        </MDBContainer>
+      </MDBNavbar>
     </>
   );
 }
 
 export default ColorSchemesExample;
-
-/* 
-<div className="button">
-          <a className="first"> H A M Z A </a>
-          <a className="slidein"> Hi!</a>
-          <a className="slidein two"> Thank you </a>
-          <a className="slidein three"> For Visiting </a>
-          <a className="slidein four"> Hope you are </a>
-          <a className="slidein five"> Having a </a>
-          <a className="slidein six"> ...great day!</a>
-          <a className="slidein seven"> ...Smile </a>
-          <a className="slidein eight"> Solve it all </a>
-          <a className="slidein nine"> ...So, </a>
-          <a className="slidein ten"> Let's Smile! </a>
-        </div> 
-*/

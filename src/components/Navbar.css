@@ -132,8 +132,9 @@
   }
   .navbar-toggler-icon{
     color:white !important;
-    background-color: #b9c4d0ec;
-    border-radius: 5px
+    background-color: #7f7173ec;
+    border-radius: 5px;
+    
   }
   nav{
     position: sticky!important;
