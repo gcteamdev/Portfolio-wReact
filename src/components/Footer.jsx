@@ -146,7 +146,7 @@ function Footer() {
           </div>
         </div>
         <div className="copyright text-center">
-          Designed & Developed By Hamza | Hosted on <span>Netlify</span>
+          Designed & Developed By Hamza | Made with <span>React.JS</span> | Hosted on <span>Netlify</span>
         </div>
         <div className="copyright text-center">
           Copyright &copy; 2022 <span>Hamza Dev</span>
