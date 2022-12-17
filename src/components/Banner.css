@@ -170,7 +170,8 @@
     font-weight: bold;
     width:100vw;
     margin-left:40%;
-    padding:5%;
+    padding:1%;
+    font-size:40px;
   }
   .mobile-pic{
     width:30%;
