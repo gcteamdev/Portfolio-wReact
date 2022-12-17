@@ -163,6 +163,7 @@
     position:fixed;
     left:70%;
     opacity: .7;
+    top:5%;
     
   }
 
@@ -175,10 +176,36 @@
   }
   .mobile-pic{
     width:30%;
-    margin-top:60%;
+    margin-top:50%;
     position:absolute;
+    z-index: 9999;
+    overflow: hidden;
     
   }
   .mobile-projects-btn{
     position: absolute;
   }
+
+  /* For Ipad media size */
+  @media only screen and (min-width: 765px) {
+    .my-pic{
+      border-radius: 15px;
+      position:absolute;
+      left:70%;
+      opacity: .7;
+      top:-20%
+      
+    }
+}
+
+/* for desktop */
+@media only screen and (min-width: 965px) {
+  .my-pic{
+    border-radius: 15px;
+    position:absolute;
+    left:70%;
+    opacity: .7;
+    top:20%
+    
+  }
+}

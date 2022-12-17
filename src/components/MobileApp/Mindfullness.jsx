@@ -8,8 +8,8 @@ function Mindfullness() {
     <div className="mobile-App">
       <br /> <br />
       <br />
-      <h1 className="mobile-app-header d-none d-md-block"> Mindfulness App</h1>
-      <h1 className="mobile-app-header d-md-none d-sm-block mobileApp-h1"> Mindfulness App</h1>
+      <h1 className="mobile-app-header d-none d-lg-block"> Mindfulness App</h1>
+      <h1 className="mobile-app-header d-lg-none d-md-block mobileApp-h1"> Mindfulness App</h1>
       <h3 className="mb-3"> Tech stack: React-Native, Redux, Expo-CLI </h3>
       {/*  -- Slideshow-- */}
       <div className="d-none d-lg-block">
@@ -37,7 +37,7 @@ function Mindfullness() {
       </div>
       
       {/* --for mobile */}
-      <div className="d-lg-none d-sm-block mobile-app-slider">
+      <div className="d-lg-none d-md-block mobile-app-slider">
       <Slide >
         <div className="each-slide-effect ">
           <div className="slide-1 slide-mobile">{/* <span>Slide 1</span> */}</div>

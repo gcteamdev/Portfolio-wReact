@@ -45,7 +45,7 @@ function TodoList() {
         </div>
       </div>
      {/*  --for mobile-- */}
-     <div className="taskiry-outer d-lg-none d-sm-block mobile-todo">
+     <div className="taskiry-outer d-lg-none d-md-block mobile-todo">
         <h1 className="todoApp-Header">Taskiary</h1>
         <h2 className="mobile-descriptionTodo">Project management app! </h2>
         <br/>
