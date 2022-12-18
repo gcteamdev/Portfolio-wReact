@@ -128,3 +128,11 @@ Slide {
    padding:10%;
   }
  }
+
+ @media only screen and (max-width: 280px){
+ .mobile-App .mobile-app-header{
+    font-size: 40px;
+    margin-top:10%;
+  }
+ }
+ 

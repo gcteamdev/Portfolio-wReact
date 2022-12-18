@@ -7,7 +7,6 @@
     width: auto;
     margin-left: 50%;
     margin-top:5%;
-  
    
    }
    
@@ -27,7 +26,8 @@
     mix-blend-mode: color-dodge;
     perspective: 500px;
     transform-style: preserve-3d;
-    color:rgb(15, 15, 59)
+    color:rgb(15, 15, 59);
+    z-index:9999;
    }
    
    button:before, button:after {
@@ -145,6 +145,8 @@
     justify-content: space-around;
     height:100vh;
     margin-top: 5%;
+    position:static;
+    z-index:1
   }
   .slogan-wrapper{
     right:40%;
@@ -184,6 +186,7 @@
   }
   .mobile-projects-btn{
     position: absolute;
+    z-index:9999;
   }
 
   /* For Ipad media size */
@@ -203,9 +206,41 @@
   .my-pic{
     border-radius: 15px;
     position:absolute;
-    left:70%;
+    left:50%;
     opacity: .7;
-    top:20%
+    top:20%;
+    overflow-x: hidden;
     
+  }
+  .slogan-wrapper{
+   left:-10%;
+   z-index:9999;
+   text-align: left;
+   padding:5%;
+   margin-top: -10%;
+  }
+  .slogan-ctn h1{
+    font-size:65px
+  }
+  .contact-btn{
+    margin-top:-18%
+  }
+  
+}
+@media only screen and (min-width: 1250px) {
+  .slogan-wrapper{
+    padding:0;
+    margin-top: 2%;
+    left:-5%
+  }
+  .my-pic{
+    left:60%
+  }
+  .slogan-ctn h1{
+    font-size:85px
+  }
+  .contact-btn{
+    margin-top:-12%;
+    margin-left:25%;
   }
 }

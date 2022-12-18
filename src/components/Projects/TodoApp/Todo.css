@@ -165,3 +165,11 @@
     margin-top: -18%;
   }
  }
+
+ @media only screen and (max-width: 280px){
+  .source-Todo-ctn{
+    padding:0;
+    width:90vw;
+    margin-top:-5%
+  }
+  }
