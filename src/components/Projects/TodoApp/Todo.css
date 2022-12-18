@@ -6,6 +6,7 @@
   z-index: 99;
   position: sticky;
   display: flex;
+  
 }
 .todoApp-Header {
   font-size: 60px;
@@ -14,6 +15,7 @@
 }
 .form-and-renderer-wrapper {
   background-color: #273044;
+  font-family: "SomberSansDemo";
 }
 .todo-pic {
   clip-path: polygon(0 0, 45% 0, 59% 100%, 0% 100%);

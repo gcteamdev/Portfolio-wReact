@@ -231,13 +231,15 @@
   .slogan-wrapper{
     padding:0;
     margin-top: 2%;
-    left:-5%
+    left:.5%;
+    z-index:0
+    
   }
   .my-pic{
     left:60%
   }
   .slogan-ctn h1{
-    font-size:85px
+    font-size:75px
   }
   .contact-btn{
     margin-top:-12%;
