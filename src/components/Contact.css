@@ -1,11 +1,13 @@
 .contact-btn {
   padding: 20px 60px;
-  background-color: #000;
+  background-color: rgb(70, 68, 68);
   border: none;
   font-size: 18px;
   position: relative;
   /* overflow: hidden; */
   transition: 5ms;
+  z-index: 999;
+  color: white;
 }
 .contact-btn:hover {
   background-color: azure;
@@ -102,7 +104,6 @@ button:hover .bottom {
 .mobile-getintouch {
   margin-top: 30%;
   margin-left: 50%;
-
   z-index: 999;
 }
 
