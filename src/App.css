@@ -3,6 +3,7 @@ background-color: #1D2127;
 height:100% !important;
 width:100vw;
 color:#C4CFDE;
+overflow-x: hidden;
 }
 
 
@@ -37,4 +38,5 @@ fill:"yellow"
  .vector-3{
   margin-top:-30%;
  }
+
 }

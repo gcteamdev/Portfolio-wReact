@@ -181,7 +181,7 @@
     margin-top:50%;
     position:absolute;
     z-index: 9999;
-    overflow: hidden;
+    overflow-x: hidden;
     
   }
   .mobile-projects-btn{
