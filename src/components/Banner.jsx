@@ -11,11 +11,11 @@ function Banner() {
         <img className="my-pic d-lg-none d-md-block mobile-pic" src={myPhoto} alt="pic" />
         <div className="d-block slogan-wrapper ">
           <h1 className="d-md-none d-sm-block mobile-header">
-            A software developer based in <br />
+            A <span className="spanSWE">software developer </span>based in <br />
             Seattle, WA.
           </h1>
           <h1 className="slogan-main d-none d-md-block">
-            A software developer <br />
+            A <span className="spanSWE">software developer </span> <br />
             based in Seattle, WA.
           </h1>
 

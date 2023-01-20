@@ -74,6 +74,9 @@
     animation: translateWobble 2.2s ease forwards;
    }
    
+   .spanSWE{
+    color:#5509d7;
+   }
    @keyframes rotateAngle {
     0% {
      transform: rotateY(0deg) rotateX(10deg);
