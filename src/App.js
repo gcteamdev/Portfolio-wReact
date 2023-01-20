@@ -6,7 +6,7 @@ import TodoList from './components/Projects/TodoApp/TodoList';
 import Mindfullness from './components/MobileApp/Mindfullness';
 import Footer from './components/Footer';
 import Demo from './components/Demo';
-
+import LandingPage from './components/LandingPage';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
       </div>
       <Mindfullness />
       <Demo />
+      <LandingPage />
       <Footer />
       
       
