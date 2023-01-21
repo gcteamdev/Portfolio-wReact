@@ -28,3 +28,9 @@
     color:white !important;
     border:2px solid rgb(240, 78, 78) !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .landingCode {
+      margin-left:10%;
+    }
+  }

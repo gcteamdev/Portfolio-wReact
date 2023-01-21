@@ -14,7 +14,7 @@ function LandingPage() {
         </div>
         <img className="landingPageImg d-lg-none"src={landingpage} alt="landingpage"/>
         <img className="landingPageLg d-lg-block d-none"src={landingpageLg} alt="landingpage"/>
-        <div className="landingCode">
+        <div className="landingCode ">
         <a className="source-code-btn btn btn-lg text-dark bg-white" target='_blank' href="https://github.com/gcteamdev/LandingPage-Senior.Home"> Source Code </a>
         <a className="watch-demo-btn  btn btn-lg btn-dark landingPageLive"  href="https://landingpage-seniorliving.netlify.app/"  target="_blank"> Watch Live</a>
 
