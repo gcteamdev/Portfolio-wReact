@@ -76,7 +76,7 @@
    
    .spanSWE{
 
-    background-image: linear-gradient(90deg, rgba(193,177,205,1) 19%, rgba(14,9,121,0.9781162464985994) 41%, rgba(210,7,7,1) 100%, rgba(0,0,0,1) 100%);;
+    background-image: linear-gradient(90deg, rgba(193,177,205,1) 19%, rgba(107, 103, 192, 0.978) 41%, rgba(210,7,7,1) 100%, rgba(0,0,0,1) 100%);;
     background-clip: text;
     color: transparent;
    }
