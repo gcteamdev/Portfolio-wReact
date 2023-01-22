@@ -138,7 +138,7 @@ function Footer() {
             </div>
 
             <div className="col-lg-4">
-              <h3>My Work's</h3>
+              <h3>My Work</h3>
               <a href="https://github.com/gcteamdev" target="_blank">
                 Github
               </a>
