@@ -73,7 +73,7 @@ function TodoList() {
          
         <div className="source-Todo-ctn mobile-source-btn  ">
         <a className="source-code-btn btn btn-lg text-dark bg-white" target='_blank' href="https://github.com/gcteamdev/Tasksiry.git"> Source Code </a>
-        <a className="watch-demo-btn  btn btn-lg btn-dark"  href="#WebApp" > Watch Demo</a>
+        <button className="watch-demo-btn  btn btn-lg btn-dark"  href="#WebApp" > Watch Demo</button>
 
         </div>
       </div>
