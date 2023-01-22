@@ -34,7 +34,7 @@ function Todoform({input, setInput, todos, setTodos}) {
         </div>
       {/*   --for mobile-- */}
       <div
-        className="add-task mobile-addTask-btn"
+        className="add-task mobile-addTask-btn d-lg-none"
         type="submit"
         onClick={() => {
           if (input !== '') {
