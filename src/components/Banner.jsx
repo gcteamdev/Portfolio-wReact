@@ -5,7 +5,7 @@ import Contact from './Contact';
 
 function Banner() {
   return (
-    <div>
+    <div className='animation-area'>
         <div className="slogan-ctn">
         <img className="my-pic d-none d-lg-block" src={myPhoto} alt="pic" />
         <img className="my-pic d-lg-none d-md-block mobile-pic" src={myPhoto} alt="pic" />
@@ -30,6 +30,14 @@ function Banner() {
           <Contact />
         </div>
       </div>
+      <ul className="box-area d-none d-lg-block">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
     </div>
   )
 }
