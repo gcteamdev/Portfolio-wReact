@@ -1,29 +1,28 @@
 .todo-App {
   background-color: #202735;
-  height: 100vh !important;
-  width: 100vw;
+  height: 110vh !important;
+  width: 98.7vw;
   color: #aaa;
   z-index: 99;
   position: sticky;
   display: flex;
-  
 }
 .todoApp-Header {
   font-size: 60px;
-  font-weight:bold;
+  font-weight: bold;
   color: rgb(240, 78, 78);
 }
 .form-and-renderer-wrapper {
   background-color: #273044;
-  font-family: "SomberSansDemo";
+  font-family: 'SomberSansDemo';
 }
 .todo-pic {
   clip-path: polygon(0 0, 45% 0, 59% 100%, 0% 100%);
 }
-.taskiry-outer{
-    position:absolute;
-    width:40vw;
-    right:10%;
+.taskiry-outer {
+  position: absolute;
+  width: 40vw;
+  right: 10%;
 }
 .source-Todo-ctn {
   display: flex;
@@ -55,8 +54,8 @@
 }
 
 /* --Todo.jsx-- */
-.assignedTo{
-    font-size: xx-small;
+.assignedTo {
+  font-size: xx-small;
 }
 
 .todo-ctn {
@@ -138,40 +137,48 @@
   border: 1px solid rgba(255, 255, 255, 0.454);
 }
 
-
-.mobile-todo{
-  position:absolute;
-  right:55%;
-  top:-15%
+.mobile-todo {
+  position: absolute;
+  right: 55%;
+  top: -15%;
 }
-.mobile-descriptionTodo{
+.mobile-descriptionTodo {
   margin-top: 21%;
-  width:100vw;
-  font-size:30px;
+  width: 100vw;
+  font-size: 30px;
 }
-.mobile-todo-tech{
-  width:100vw;
+.mobile-todo-tech {
+  width: 100vw;
 }
-.mobile-formAndrenderer{
-  width:90vw;
+.mobile-formAndrenderer {
+  width: 90vw;
   background-color: rgb(36, 63, 87);
 }
-.mobile-source-btn{
-  width:100vw;
-  margin-top:15%;
+.mobile-source-btn {
+  width: 100vw;
+  margin-top: 15%;
 }
 
-
 @media only screen and (max-width: 850px) {
-  .taskiry-outer{
+  .taskiry-outer {
     margin-top: -18%;
   }
- }
+}
 
- @media only screen and (max-width: 280px){
-  .source-Todo-ctn{
-    padding:0;
-    width:90vw;
-    margin-top:-5%
+@media only screen and (max-width: 280px) {
+  .source-Todo-ctn {
+    padding: 0;
+    width: 90vw;
+    margin-top: -5%;
   }
+}
+@media only screen and (min-width: 1250px) {
+  .todo-App {
+    padding: 3%;
+    border: 1px solid white;
+    border-radius: 15px;
+    left:.4%;
+    width: 98vw;
+    
   }
+}

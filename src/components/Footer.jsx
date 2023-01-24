@@ -151,6 +151,7 @@ function Footer() {
         <div className="copyright text-center">
           Copyright &copy; 2022 <span>Hamza Dev</span>
         </div>
+        
       </footer>
  
   );

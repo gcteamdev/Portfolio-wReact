@@ -10,14 +10,14 @@ overflow-x: hidden;
 .vector{
   width:100vw;
   position:absolute;
-  top:65%;
-  height:60vh;
+  top:70%;
+  height:90vh;
 }
 .vector-2{
   width:100vw;
   position:absolute;
   top:60%;
-  height:80vh; 
+  height:60vh; 
 }
 .vector-3{
   width:100vw;

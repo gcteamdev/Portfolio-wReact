@@ -1,33 +1,27 @@
 import React from 'react';
 import "./Banner.css";
-import myPhoto from "../assets/Portfolio2023-warmer.jpg"
-import Contact from './Contact';
+import myPhoto from "../assets/myAvatar (1).png";
 
 function Banner() {
   return (
-    <div className='animation-area'>
+    <>
+
+<div className='animation-area'>
         <div className="slogan-ctn">
         <img className="my-pic d-none d-lg-block" src={myPhoto} alt="pic" />
         <img className="my-pic d-lg-none d-md-block mobile-pic" src={myPhoto} alt="pic" />
+        
         <div className="d-block slogan-wrapper ">
           <h1 className="d-md-none d-sm-block mobile-header spanSWE">
-            A <span /* className="spanSWE" */>software developer </span>based in <br />
+            A <span /* className="spanSWE" */>software Engineer </span>based in <br />
             Seattle, WA.
           </h1>
           <h1 className="slogan-main d-none d-md-block spanSWE">
-            A <span /* className="spanSWE" */>software developer </span> <br />
-            based in Seattle, WA.
+            A <span /* className="spanSWE" */>software Engineer </span> <br />
+            based in Seattle, WA
           </h1>
-
-          <div className="wrapper">
-            <a  className="d-none d-md-block" href="#todo-app" style={{textDecoration:"none"}}>
-            <button>Projects</button>
-            </a>
-            <a  className="d-md-none d-sm-block mobile-projects-btn" href="#todo-app" style={{textDecoration:"none"}}>
-            <button>Projects</button>
-            </a>
-          </div>
-          <Contact />
+      
+       
         </div>
       </div>
       <ul className="box-area d-none d-lg-block">
@@ -38,7 +32,30 @@ function Banner() {
     <li></li>
     <li></li>
   </ul>
+ 
     </div>
+    <div className="aboutMe d-none d-md-block"> 
+    <h5>Hello world! I am Hamza, a team-focused FullStack developer, previously Lead React Developer Intern at ETGE. I Have rock solid experience in building responsive complex applications and I continue to learn new technologies to stay up to date with trends and current standards in the industry.</h5>
+    
+    </div>
+    <div className="aboutMeMobile d-sm-block d-md-none"> 
+    <h5>Hello world! I am Hamza, a team-focused FullStack developer, previously Lead React Developer Intern at ETGE.</h5>
+    
+    </div>
+    
+      <div className="text-center banner-btns d-none d-lg-flex">
+        <a className=" btn btn-lg text-dark bg-white" href="mailto:contact@gcteam.dev"> Contact Me! </a> 
+        <a className=" btn btn-lg btn-dark"  href="#WebApp" > View Projects</a>
+
+      </div>
+      <div className="text-center banner-btns-sm d-lg-none d-sm-block">
+        <a className=" btn btn-lg text-dark bg-white" href="mailto:contact@gcteam.dev"> Contact Me! </a> 
+        <a className=" btn btn-lg btn-dark"  href="#WebApp" > View Projects</a>
+
+      </div>
+     
+    </>
+    
   )
 }
 
