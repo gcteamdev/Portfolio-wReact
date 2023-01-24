@@ -17,7 +17,8 @@ function TodoList() {
       <div className="taskiry-outer d-none d-lg-block">
         <h1 className="todoApp-Header">Taskiary</h1>
         <h4 className="">Project management app!</h4>
-        
+        <h5 className="mobile-todo-tech">Tech Stack: React.JS | JAVA | Spring Boot</h5>
+        <h5 className="mobile-todo-tech">Database: postgreSQL</h5>
         <div className="wrapper" style={{margin:"auto"}} >
         <button >Create a task for me below:</button>
         </div>
@@ -49,7 +50,7 @@ function TodoList() {
         <h1 className="todoApp-Header">Taskiary</h1>
         <h2 className="mobile-descriptionTodo">Project management app! </h2>
         <br/>
-        <h5 className="mobile-todo-tech">Tech Stack: React.JS | Node.JS</h5>
+        <h5 className="mobile-todo-tech">Tech Stack: React.JS | JAVA | Spring Boot</h5>
         
         <div className="wrapper" style={{margin:"auto"}} >
         <button >Create a task for me</button>
