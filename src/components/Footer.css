@@ -33,6 +33,7 @@ footer {
   
   footer .three-column {
    overflow: hidden;
+   height:100%;
   }
   
   footer .three-column li{
