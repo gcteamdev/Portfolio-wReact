@@ -35,11 +35,11 @@ function Banner() {
  
     </div>
     <div className="aboutMe d-none d-md-block"> 
-    <h5>Hello world! I am Hamza, a team-focused FullStack developer, previously Lead React Developer Intern at ETGE. I Have rock solid experience in building responsive complex applications and I continue to learn new technologies to stay up to date with trends and current standards in the industry.</h5>
+    <h5>Hello world! I am Hamza, a product & team-focused FullStack developer, previously Lead React Developer Intern at ETGE. I Have rock solid experience in building responsive complex applications and I continue to learn new technologies to stay up to date with trends and current standards in the industry.</h5>
     
     </div>
     <div className="aboutMeMobile d-sm-block d-md-none"> 
-    <h5>Hello world! I am Hamza, a team-focused FullStack developer, previously Lead React Developer Intern at ETGE.</h5>
+    <h5>Hello world! I am Hamza, a product & team-focused FullStack developer, previously Lead React Developer Intern at ETGE.</h5>
     
     </div>
     
