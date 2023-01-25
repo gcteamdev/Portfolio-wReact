@@ -14,11 +14,11 @@ function Banner() {
         <div className="d-block slogan-wrapper ">
           <h1 className="d-md-none d-sm-block mobile-header spanSWE">
             A <span /* className="spanSWE" */>software Engineer </span>based in <br />
-            Seattle, WA.
+            Seattle,WA.
           </h1>
           <h1 className="slogan-main d-none d-md-block spanSWE">
             A <span /* className="spanSWE" */>software Engineer </span> <br />
-            based in Seattle, WA
+            based in Seattle,WA
           </h1>
       
        
