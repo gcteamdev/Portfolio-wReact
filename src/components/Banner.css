@@ -101,7 +101,29 @@
   }
   
 }
-@media only screen and (min-width: 1250px) {
+@media only screen and (max-width: 1280px){
+ 
+  .slogan-main{
+    font-size: 98px !important;
+    width:78.0.0vw;
+  }
+  .aboutMe{
+    position:absolute;
+    left:45%;
+    
+  }
+  .my-pic{
+    position: absolute;
+    width:34%;
+
+  }
+  .banner-btns{
+    left:50% !important;
+    top:80.5% !important;
+    position:absolute;
+  }
+}
+@media only screen and (min-width: 1281px) {
   .slogan-wrapper{
     padding:0;
     margin-top: 2%;
