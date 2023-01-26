@@ -65,7 +65,7 @@ function TodoList() {
         </h5>
 
         <div className="wrapper" style={{ margin: 'auto' }}>
-          <button>Create a task for me</button>
+          <button>Create a task for me:</button>
         </div>
         <br />
 
