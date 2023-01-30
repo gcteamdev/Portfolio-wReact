@@ -16,13 +16,20 @@
   left: 35%;
   position: absolute;
 }
+.projects-Mobile{
+  color: #babcbe !important;
+  font-size: 50px !important;
+  z-index: 99999;
+  left: 5%;
+  position: absolute;
+}
 .orcaProjWrapper {
   display: flex !important;
   flex-direction: row !important;
   background-color: rgb(179, 179, 60);
   height: 700px;
   align-items: center;
-  transition: 0.6s all ease
+  transition: 0.7s all ease
 }
 .BgColorChange {
   background-color: #202735;
@@ -30,7 +37,7 @@
   flex-direction: row !important;
   height: 700px;
   align-items: center;  
-  transition: 0.8.5s all ease
+  transition: 0.6.5s all ease
 }
 .orcaH1Span {
   color: #f04e4e;
@@ -51,4 +58,18 @@
 }
 .OrcatechStack {
   color: #202735;
+}
+
+@media only screen and (max-width: 600px) {
+    .orcaProjWrapper{
+        display: block !important;
+        padding:2.5%;
+    }
+    .BgColorChange{
+        display: block !important;
+        padding:1%;
+    }
+    .orcaImg{
+        width:100%;
+    }
 }

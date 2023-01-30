@@ -50,7 +50,7 @@ function Banner() {
       </div>
       <div className="text-center banner-btns-sm d-lg-none d-sm-block">
         <a className=" btn btn-lg text-dark bg-warning" href="mailto:contact@gcteam.dev"> Contact Me! </a> 
-        <a className=" btn btn-lg btn-dark"  href="#WebApp" > View Projects</a>
+        <a className=" btn btn-lg btn-dark"  href="#PERNpage" > View Projects</a>
 
       </div>
      
