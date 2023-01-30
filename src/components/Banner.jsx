@@ -39,7 +39,7 @@ function Banner() {
     
     </div>
     <div className="aboutMeMobile d-sm-block d-md-none"> 
-    <h5>Hello world! I am Hamza, a product & team-focused FullStack developer, previously Lead React Developer Intern at ETGE.</h5>
+    <h5>Hello world! I am Hamza, a product & team-focused FullStack developer, previously Lead React Developer Intern at ETGE. <br></br><br></br>I Have rock solid experience in building responsive complex applications and I continue to learn new technologies to stay up to date in the industry.</h5>
     
     </div>
     

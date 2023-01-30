@@ -31,12 +31,16 @@ overflow-x: hidden;
 
 /* For Ipad media size */
 @media only screen and (max-width: 850px) {
- .vector-2{
-margin-top:-5%;
-fill:"yellow"
- }
+ 
  .vector-3{
-  margin-top:-30%;
+  margin-top:22%;
  }
 
+}
+
+/* mobile */
+@media only screen and (max-width: 650px){
+  .vector-3{
+    margin-top:32%;
+   }
 }
