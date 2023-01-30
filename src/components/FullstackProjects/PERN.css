@@ -29,7 +29,8 @@
   background-color: rgb(179, 179, 60);
   height: 700px;
   align-items: center;
-  transition: 0.7s all ease
+  transition: 0.7s all ease;
+  padding:2.5%;
 }
 .BgColorChange {
   background-color: #202735;
@@ -37,7 +38,8 @@
   flex-direction: row !important;
   height: 700px;
   align-items: center;  
-  transition: 0.6.5s all ease
+  transition: 0.6.5s all ease;
+  padding:1%;
 }
 .orcaH1Span {
   color: #f04e4e;
@@ -71,5 +73,9 @@
     }
     .orcaImg{
         width:100%;
+    }
+    .orcaH1Span{
+        font-size: 45px;
+        font-weight: bold;
     }
 }
