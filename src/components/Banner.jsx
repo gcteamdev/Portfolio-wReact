@@ -44,12 +44,12 @@ function Banner() {
     </div>
     
       <div className="text-center banner-btns d-none d-lg-flex">
-        <a className=" btn btn-lg text-dark bg-white" href="mailto:contact@gcteam.dev"> Contact Me! </a> 
+        <a className=" btn btn-lg text-dark bg-warning" href="mailto:contact@gcteam.dev"> Contact Me! </a> 
         <a className=" btn btn-lg btn-dark"  href="#WebApp" > View Projects</a>
 
       </div>
       <div className="text-center banner-btns-sm d-lg-none d-sm-block">
-        <a className=" btn btn-lg text-dark bg-white" href="mailto:contact@gcteam.dev"> Contact Me! </a> 
+        <a className=" btn btn-lg text-dark bg-warning" href="mailto:contact@gcteam.dev"> Contact Me! </a> 
         <a className=" btn btn-lg btn-dark"  href="#WebApp" > View Projects</a>
 
       </div>

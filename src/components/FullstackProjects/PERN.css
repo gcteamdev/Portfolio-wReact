@@ -1,0 +1,54 @@
+.PERNpage {
+  height: 150vh;
+  width: 100vw;
+  background-color: #202735;
+}
+
+.projectCtn {
+  background-color: #202735;
+  z-index: 9999;
+  height: 20vh;
+}
+.projects {
+  color: #babcbe !important;
+  font-size: 70px !important;
+  z-index: 99999;
+  left: 35%;
+  position: absolute;
+}
+.orcaProjWrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: rgb(179, 179, 60);
+  height: 700px;
+  align-items: center;
+  transition: 0.6s all ease
+}
+.BgColorChange {
+  background-color: #202735;
+  display: flex !important;
+  flex-direction: row !important;
+  height: 700px;
+  align-items: center;  
+  transition: 0.8.5s all ease
+}
+.orcaH1Span {
+  color: #f04e4e;
+  font-size: 60px;
+  background-color: #202735;
+  border-radius: 10px 2px;
+}
+.orcaProjecth1 {
+  color: #202735;
+  font-size: 40px;
+  z-index: 99999;
+}
+
+.orcaImg {
+  z-index: 99999;
+  width: 50%;
+  left: 5%;
+}
+.OrcatechStack {
+  color: #202735;
+}

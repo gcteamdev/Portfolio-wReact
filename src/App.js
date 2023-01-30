@@ -7,14 +7,16 @@ import Mindfullness from './components/MobileApp/Mindfullness';
 import Footer from './components/Footer';
 import Demo from './components/Demo';
 import LandingPage from './components/LandingPage';
+import PERNstack from './components/FullstackProjects/PERNstack';
 function App() {
   return (
     <div className="App">
       <ColorSchemesExample />
       <Banner />
       <div>
-      
+      <PERNstack />
       <Svg />
+      
       <TodoList />
       </div>
       <Mindfullness />
