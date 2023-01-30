@@ -75,7 +75,8 @@
         width:100%;
     }
     .orcaH1Span{
-        font-size: 45px;
+        font-size: 55px;
         font-weight: bold;
+        background-color:transparent;
     }
 }
