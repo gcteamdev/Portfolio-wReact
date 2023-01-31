@@ -29,7 +29,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .landingCode {
+    /* .landingCode {
       margin-left:10%;
+    } */
+    .landingCode-btns{
+        display:flex;
+        padding:0;
+        width:100vw;
+        margin-top:10%;
+        justify-content: center;
+        margin-left: 0  !important;
     }
   }
