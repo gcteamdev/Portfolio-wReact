@@ -79,4 +79,9 @@
         font-weight: bold;
         background-color:transparent;
     }
+    .projectCtn{
+      background-color: #202735;
+      margin-top: 2%;
+    }
+    
 }
