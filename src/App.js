@@ -14,17 +14,14 @@ function App() {
       <ColorSchemesExample />
       <Banner />
       <div>
-      <PERNstack />
-      <Svg />
-      
-      <TodoList />
+        <PERNstack />
+        <Svg />
+        <TodoList />
       </div>
       <Mindfullness />
       <Demo />
       <LandingPage />
       <Footer />
-      
-      
     </div>
   );
 }
