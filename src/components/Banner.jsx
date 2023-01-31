@@ -9,7 +9,7 @@ function Banner() {
 <div className='animation-area'>
         <div className="slogan-ctn">
         <img className="my-pic d-none d-lg-block" src={myPhoto} alt="pic" />
-        <img className=" d-lg-none d-md-block mobile-pic" src={myPhoto} alt="pic" />
+        <img className="my-pic d-lg-none d-md-block mobile-pic" src={myPhoto} alt="pic" />
         
         <div className="d-block slogan-wrapper ">
           <h1 className="d-md-none d-sm-block mobile-header spanSWE">
