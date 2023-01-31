@@ -78,15 +78,23 @@
   @media only screen and (min-width: 765px) {
     .my-pic{
       border-radius: 15px;
-      position:absolute;
-      left:70%;
+      position:absolute !important;
+      left:65%;
       opacity: .7;
-      top:-20%
+      top:22%
+      
     }
     .banner-btns-sm{
-      margin-top: 30%;
-      padding:5%;
+      margin-top: 40%;
+      position: absolute;
+      left:30%;
       width:50vw;
+     
+      
+    }
+    body{
+      overflow-x: hidden;
+      box-sizing: border-box;
     }
 }
 
