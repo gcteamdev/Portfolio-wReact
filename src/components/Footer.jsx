@@ -63,24 +63,7 @@ function Footer() {
                 </li>
               </ul>
               <ul className="list-unstyled socila-list">
-                <li>
-                  <img src="http://placehold.it/48x48" alt="" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/48x48" alt="" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/48x48" alt="" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/48x48" alt="" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/48x48" alt="" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/48x48" alt="" />
-                </li>
+                
               </ul>
             </div>
 
@@ -88,11 +71,7 @@ function Footer() {
               <h3>Favourite quotes</h3>
               <div className="media">
                 <a href="#" className="pull-left">
-                  <img
-                    src="http://placehold.it/64x64"
-                    alt=""
-                    className="media-object"
-                  />
+                  
                 </a>
                 <div className="media-body">
                   <h4 className="media-heading">Life</h4>
@@ -105,11 +84,7 @@ function Footer() {
 
               <div className="media">
                 <a href="#" className="pull-left">
-                  <img
-                    src="http://placehold.it/64x64"
-                    alt=""
-                    className="media-object"
-                  />
+                  
                 </a>
                 <div className="media-body">
                   <h4 className="media-heading">Coding</h4>
@@ -122,11 +97,7 @@ function Footer() {
 
               <div className="media">
                 <a href="#" className="pull-left">
-                  <img
-                    src="http://placehold.it/64x64"
-                    alt=""
-                    className="media-object"
-                  />
+                  
                 </a>
                 <div className="media-body">
                   <h4 className="media-heading">Personal</h4>
