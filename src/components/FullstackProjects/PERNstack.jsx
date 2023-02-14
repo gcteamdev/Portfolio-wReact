@@ -16,7 +16,7 @@ function PERNstack() {
   window.addEventListener('scroll', changeBgColor);
 
   return (
-    <div className="PERNpage" id="PERNpage">
+    <div className="PERNpage" id="projects">
       <div className="projectCtn">
         <Slide right duration={1600}>
           <h1 className="projects d-none d-lg-block">PROJECTS...</h1>

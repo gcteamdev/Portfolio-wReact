@@ -20,11 +20,13 @@ function Banner() {
           />
 
           <div className="d-block slogan-wrapper ">
+          <Bounce bottom duration={1500}>
             <h1 className="d-md-none d-sm-block mobile-header spanSWE">
               A <span /* className="spanSWE" */>software Engineer </span>based
               in <br />
               Seattle,WA.
             </h1>
+            </Bounce>
             <Bounce bottom duration={1500}>
               <h1 className="slogan-main d-none d-md-block spanSWE">
                 A <span /* className="spanSWE" */>software Engineer </span>{' '}
@@ -54,8 +56,9 @@ function Banner() {
           </h5>
         </div>
       </Zoom>
+      <Zoom duration={2500}>
       <div className="aboutMeMobile d-sm-block d-md-none">
-        <h5>
+        <h5 className="aboutme-h5">
           Hello world! I am Hamza, a product & team-focused FullStack developer,
           previously Lead React Developer Intern at ETGE. <br></br>
           <br></br>I Have rock solid experience in building responsive complex
@@ -63,7 +66,7 @@ function Banner() {
           date in the industry.
         </h5>
       </div>
-
+      </Zoom>
       <div className="text-center banner-btns d-none d-lg-flex">
         <a
           className=" btn btn-lg text-dark bg-warning"
@@ -72,9 +75,9 @@ function Banner() {
           {' '}
           Contact Me!{' '}
         </a>
-        <a className=" btn btn-lg btn-dark" href="#WebApp">
+        <a className=" btn btn-lg btn-dark" href="#projects">
           {' '}
-          View Projects
+          Projects
         </a>
       </div>
       <div className="text-center banner-btns-sm d-lg-none d-sm-block">
@@ -85,9 +88,9 @@ function Banner() {
           {' '}
           Contact Me!{' '}
         </a>
-        <a className=" btn btn-lg btn-dark" href="#PERNpage">
+        <a className=" btn btn-lg btn-dark" href="#projects">
           {' '}
-          View Projects
+          Projects
         </a>
       </div>
     </>

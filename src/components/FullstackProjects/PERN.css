@@ -119,3 +119,12 @@
    }
     
 }
+@media only screen and (max-width: 600px){
+  .projects-Mobile{
+    margin-top: 15%;
+  }
+  .aboutme-h5{
+    font-size: 15px;
+  }
+}
+

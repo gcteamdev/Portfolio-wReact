@@ -55,7 +55,7 @@
     overflow-x: hidden;
     position:absolute;
     left:55%;
-    top:55%;
+    top:65%;
     justify-content: space-evenly;
     display: block;
     height:40vh;
@@ -68,9 +68,8 @@
       right:5% !important;
     }
     .banner-btns-sm{
-      justify-content: space-around !important;
-      display:flex !important;
-      flex-direction: column;
+    
+
     }
   }
 
