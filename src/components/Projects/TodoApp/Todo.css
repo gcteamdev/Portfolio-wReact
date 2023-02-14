@@ -1,11 +1,11 @@
+
 .todo-App {
-  background-color: #202735;
-  height: 110vh !important;
-  width: 98.7vw;
-  color: #aaa;
-  z-index: 99;
-  position: sticky;
+  background-color: #aaaaaa40;
+  height:100% ;
+  color: #273044;
+  z-index: 999;
   display: flex;
+  
 }
 .todoApp-Header {
   font-size: 60px;
@@ -18,11 +18,18 @@
 }
 .todo-pic {
   clip-path: polygon(0 0, 45% 0, 59% 100%, 0% 100%);
+  width:75%;
 }
 .taskiry-outer {
   position: absolute;
   width: 40vw;
   right: 10%;
+ 
+}
+.taskiry-outer-mobile{
+  padding: 3%;
+  margin-bottom: 20%;
+  margin-top: 20%;
 }
 .source-Todo-ctn {
   display: flex;
@@ -137,11 +144,6 @@
   border: 1px solid rgba(255, 255, 255, 0.454);
 }
 
-.mobile-todo {
-  position: absolute;
-  right: 55%;
-  top: -15%;
-}
 .mobile-descriptionTodo {
   margin-top: 21%;
   width: 100vw;
@@ -159,12 +161,18 @@
   margin-top: 15%;
 }
 
-@media only screen and (max-width: 850px) {
-  .taskiry-outer {
-    margin-top: -18%;
+@media only screen and (min-width: 750px) {
+  .todoAppOuter{
+    margin:auto;
+    height:80vh
   }
 }
-
+@media only screen and (min-width: 900px) {
+  .todoAppOuter{
+    margin:auto;
+    height:100vh !important;
+  }
+}
 @media only screen and (max-width: 280px) {
   .source-Todo-ctn {
     padding: 0;
@@ -173,12 +181,11 @@
   }
 }
 @media only screen and (min-width: 1250px) {
-  .todo-App {
-    padding: 3%;
-    border: 1px solid white;
-    border-radius: 15px;
-    left:.5%;
-    width: 98vw;
-    
+  
+  .todoAppOuter{
+    margin:auto;
+    height:100%;
+  
+  
   }
 }

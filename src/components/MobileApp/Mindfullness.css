@@ -108,20 +108,9 @@ Slide {
 }
 @media only screen and (max-width: 700px) {
   .mobile-app-header{
-    margin-top:-50%
+    margin-top:25%
   }
  }
-@media only screen and (min-width: 765px) {
-  .mobile-app-header{
-    margin-top:-65%
-  }
- }
- @media only screen and (min-width: 850px) {
-  .mobile-app-header{
-    margin-top:0%
-  }
- }
-
 
  @media only screen and (min-width: 766px) {
   .mobile-app-slider{

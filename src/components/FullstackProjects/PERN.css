@@ -1,5 +1,5 @@
 .PERNpage {
-  height: 150vh;
+  height: 100%;
   width: 100vw;
   background-color: #202735;
 }
@@ -16,6 +16,10 @@
   left: 35%;
   position: absolute;
 }
+.project-1{
+  height:100%;
+  margin-bottom:10%;
+}
 .projects-Mobile{
   color: #babcbe !important;
   font-size: 50px !important;
@@ -23,13 +27,29 @@
   left: 5%;
   position: absolute;
 }
+.project-2{
+  padding: 3.5%;
+  background-color: #1D2127;
+  height:100%;
+}
 .orcaProjWrapper {
   display: flex !important;
   flex-direction: row !important;
-  background-color: rgb(179, 179, 60);
   height: 700px;
   align-items: center;
-  transition: 0.7s all ease;
+  padding:2.5%;
+  background-color: #202735;
+  border-radius: 15px;
+  box-shadow: 2.2px 0.6px 2px .6px #c8f536;
+
+}
+.bakeryProjWrapper{
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: rgb(248, 248, 246);
+  height: 700px;
+  align-items: center;
+  transition: 0.6s all ease;
   padding:2.5%;
 }
 .BgColorChange {
@@ -60,12 +80,18 @@
 }
 .OrcatechStack {
   color: #202735;
+  background-color: azure;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 600px) {
     .orcaProjWrapper{
         display: block !important;
         padding:3.5%;
+    }
+    .bakeryProjWrapper{
+      display: block !important;
+      padding:3.5%;
     }
     .BgColorChange{
         display: block !important;
@@ -82,5 +108,14 @@
     .projectCtn{
       margin-top: -3.5%;
     }
+    .project-1{
+      position: relative;
+    }
+   .bakeryDetails{
+    position: absolute;
+    top:37%;
+    width:100%
+    
+   }
     
 }
