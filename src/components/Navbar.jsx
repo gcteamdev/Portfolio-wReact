@@ -67,8 +67,8 @@ function ColorSchemesExample() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="mailto:contact@gcteam.dev">
-                  Contact
+                <MDBNavbarLink href="#projects">
+                  Projects
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
