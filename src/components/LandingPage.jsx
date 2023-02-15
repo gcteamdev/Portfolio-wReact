@@ -2,18 +2,21 @@ import React from 'react';
 import landingpage from '../assets/LandingPage.png';
 import landingpageLg from '../assets/iMac iPad and iPhone X.png';
 import './LandingPage.css';
+import Bounce from 'react-reveal/Bounce';
 
 function LandingPage() {
   return (
     <div className="landingPage">
-      <div className="LandingPage-headerCtn">
-        <h1 className="LandingPage-header">Landing Page </h1>
-        <h2 className="">
-          A Senior Living Home | Landing page project with React.js{' '}
-        </h2>
-        <br />
-        <h5 className="">Tech Stack: React.JS | Boortrap | Material UI</h5>
-      </div>
+      <Bounce bottom duration={1600}>
+        <div className="LandingPage-headerCtn">
+          <h1 className="LandingPage-header">Landing Page </h1>
+          <h2 className="">
+            A Senior Living Home | Landing page project with React.js{' '}
+          </h2>
+          <br />
+          <h5 className="">Tech Stack: React.JS | Bootstrap | Material UI</h5>
+        </div>
+      </Bounce>
       <img
         className="landingPageImg d-lg-none"
         src={landingpage}

@@ -1,11 +1,22 @@
 import React from 'react';
 import './Demo.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
-/* https://mdbootstrap.com/docs/react/extended/video/ */
+import Slide from 'react-reveal/Slide';
+
 function Demo() {
   return (
     <div className="Demo-page" id="WebApp">
+      <div className="text-center text-dark p-3 bg-warning mb-5">
+        <Slide bottom duration={1800}>
+          <h1>Demo Gallery...</h1>
+        </Slide>
+      </div>
+
       <div className="d-block d-md-flex contact-outer"></div>
+      <div className="text-center mt-5">
+        <br></br>
+        <h1>Taskiary</h1>
+      </div>
       <MDBContainer>
         <div className="ratio ratio-16x9">
           <iframe
@@ -17,7 +28,7 @@ function Demo() {
       </MDBContainer>
       <div className="text-center mt-5">
         <br></br>
-        <h1> Project-1 Demo: Lamina's Bakery</h1>
+        <h1>Lamina's Bakery</h1>
       </div>
       <MDBContainer>
         <div className="ratio ratio-16x9">

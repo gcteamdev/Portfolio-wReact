@@ -21,7 +21,9 @@ function PERNstack() {
         <Slide bottom duration={1800}>
           <h1 className="projects d-none d-lg-block">PROJECTS...</h1>
         </Slide>
+        <Slide bottom duration={1800}>
         <h1 className="projects-Mobile d-sm-block d-lg-none">PROJECTS...</h1>
+        </Slide>
       </div>
       <div className="project-1">
         <div className={colorChange ? 'bakeryProjWrapper' : 'BgColorChange'}>
