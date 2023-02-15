@@ -16,7 +16,7 @@ function TodoList() {
     <div className="todoAppOuter">
       <div class="todo-App d-block d-md-flex" id="todo-app">
         <Slide bottom duration={2000}>
-          <div className="p-2">
+          <div className="p-5">
             <img
               class="todo-pic d-none d-md-block "
               src={todoPic}
