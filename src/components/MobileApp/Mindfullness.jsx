@@ -5,11 +5,12 @@ import 'react-slideshow-image/dist/styles.css';
 import './Mindfullness.css';
 
 function Mindfullness() {
- 
   const alertmsg = () => {
-    alert("Sorry not displayed here, due to privacy restrictions, if interested please contact me!");
-  }
-  
+    alert(
+      'Sorry not displayed here, due to privacy restrictions, if interested please contact me!'
+    );
+  };
+
   return (
     <div className="mobile-App">
       <br /> <br />

@@ -16,50 +16,49 @@
   left: 35%;
   position: absolute;
 }
-.project-1{
-  height:100%;
-  margin-bottom:10%;
+.project-1 {
+  height: 100%;
+  margin-bottom: 10%;
 }
-.projects-Mobile{
+.projects-Mobile {
   color: #babcbe !important;
   font-size: 50px !important;
   z-index: 99999;
   left: 5%;
   position: absolute;
 }
-.project-2{
+.project-2 {
   padding: 3.5%;
-  background-color: #1D2127;
-  height:100%;
+  background-color: #1d2127;
+  height: 100%;
 }
 .orcaProjWrapper {
   display: flex !important;
   flex-direction: row !important;
   height: 700px;
   align-items: center;
-  padding:2.5%;
+  padding: 2.5%;
   background-color: #202735;
   border-radius: 15px;
-  box-shadow: 2.2px 0.6px 2px .6px #c8f536;
-
+  box-shadow: 2.2px 0.6px 2px 0.6px #c8f536;
 }
-.bakeryProjWrapper{
+.bakeryProjWrapper {
   display: flex !important;
   flex-direction: row !important;
   background-color: rgb(248, 248, 246);
   height: 700px;
   align-items: center;
   transition: 0.6s all ease;
-  padding:2.5%;
+  padding: 2.5%;
 }
 .BgColorChange {
   background-color: #202735;
   display: flex !important;
   flex-direction: row !important;
   height: 700px;
-  align-items: center;  
+  align-items: center;
   transition: 0.6.5s all ease;
-  padding:1%;
+  padding: 1%;
 }
 .orcaH1Span {
   color: #f04e4e;
@@ -85,46 +84,43 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .orcaProjWrapper{
-        display: block !important;
-        padding:3.5%;
-    }
-    .bakeryProjWrapper{
-      display: block !important;
-      padding:3.5%;
-    }
-    .BgColorChange{
-        display: block !important;
-        padding:1%;
-    }
-    .orcaImg{
-        width:100%;
-    }
-    .orcaH1Span{
-        font-size: 55px;
-        font-weight: bold;
-        background-color:transparent;
-    }
-    .projectCtn{
-      margin-top: -3.5%;
-    }
-    .project-1{
-      position: relative;
-    }
-   .bakeryDetails{
+  .orcaProjWrapper {
+    display: block !important;
+    padding: 3.5%;
+  }
+  .bakeryProjWrapper {
+    display: block !important;
+    padding: 3.5%;
+  }
+  .BgColorChange {
+    display: block !important;
+    padding: 1%;
+  }
+  .orcaImg {
+    width: 100%;
+  }
+  .orcaH1Span {
+    font-size: 55px;
+    font-weight: bold;
+    background-color: transparent;
+  }
+  .projectCtn {
+    margin-top: -3.5%;
+  }
+  .project-1 {
+    position: relative;
+  }
+  .bakeryDetails {
     position: absolute;
-    top:37%;
-    width:100%
-    
-   }
-    
+    top: 37%;
+    width: 100%;
+  }
 }
-@media only screen and (max-width: 600px){
-  .projects-Mobile{
+@media only screen and (max-width: 600px) {
+  .projects-Mobile {
     margin-top: 15%;
   }
-  .aboutme-h5{
+  .aboutme-h5 {
     font-size: 15px;
   }
 }
-

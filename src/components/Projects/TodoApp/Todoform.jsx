@@ -1,15 +1,14 @@
 import React from 'react';
 import './Todoform.css';
-import AddTaskIcon from '@mui/icons-material/AddTask'; 
+import AddTaskIcon from '@mui/icons-material/AddTask';
 
-function Todoform({input, setInput, todos, setTodos}) {
-
+function Todoform({ input, setInput, todos, setTodos }) {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
 
   return (
-    <form onSubmit={handleSubmit} >
+    <form onSubmit={handleSubmit}>
       <div className="containerInput">
         <input
           placeholder="Add a task!"
@@ -20,33 +19,32 @@ function Todoform({input, setInput, todos, setTodos}) {
             setInput(e.target.value);
           }}
         />
-       <div
-        className="add-task d-none d-md-block"
-        type="submit"
-        onClick={() => {
-          if (input !== '') {
-            setTodos([...todos, { inputTask: input }]);
-            setInput('');
-          }
-        }}
-      >
-        <AddTaskIcon />
+        <div
+          className="add-task d-none d-md-block"
+          type="submit"
+          onClick={() => {
+            if (input !== '') {
+              setTodos([...todos, { inputTask: input }]);
+              setInput('');
+            }
+          }}
+        >
+          <AddTaskIcon />
         </div>
-      {/*   --for mobile-- */}
-      <div
-        className="add-task mobile-addTask-btn d-lg-none"
-        type="submit"
-        onClick={() => {
-          if (input !== '') {
-            setTodos([...todos, { inputTask: input }]);
-            setInput('');
-          }
-        }}
-      >
-        <AddTaskIcon />
+        {/*   --for mobile-- */}
+        <div
+          className="add-task mobile-addTask-btn d-lg-none"
+          type="submit"
+          onClick={() => {
+            if (input !== '') {
+              setTodos([...todos, { inputTask: input }]);
+              setInput('');
+            }
+          }}
+        >
+          <AddTaskIcon />
         </div>
       </div>
-      
     </form>
   );
 }

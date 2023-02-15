@@ -1,47 +1,43 @@
-.App{
-background-color: #1D2127;
-height:100% !important;
-width:100vw;
-color:#C4CFDE;
-overflow-x: hidden;
+.App {
+  background-color: #1d2127;
+  height: 100% !important;
+  width: 100vw;
+  color: #c4cfde;
+  overflow-x: hidden;
 }
 
-
-.vector{
-  width:100vw;
-  position:absolute;
-  top:70%;
-  height:90vh;
+.vector {
+  width: 100vw;
+  position: absolute;
+  top: 70%;
+  height: 90vh;
 }
-.vector-2{
-  width:100vw;
-  position:absolute;
-  top:60%;
-  height:60vh; 
+.vector-2 {
+  width: 100vw;
+  position: absolute;
+  top: 60%;
+  height: 60vh;
 }
-.vector-3{
-  width:100vw;
-  position:absolute;
-  top:85%;
-  height:80vh; 
+.vector-3 {
+  width: 100vw;
+  position: absolute;
+  top: 85%;
+  height: 80vh;
 }
-.aboutMe-pic{
-  position:sticky;
+.aboutMe-pic {
+  position: sticky;
 }
 
 /* For Ipad media size */
 @media only screen and (max-width: 850px) {
- 
- .vector-3{
-  margin-top:22%;
- }
-
+  .vector-3 {
+    margin-top: 22%;
+  }
 }
 
 /* mobile */
-@media only screen and (max-width: 650px){
-  .vector-3{
-    margin-top:38%;
-   }
-  
+@media only screen and (max-width: 650px) {
+  .vector-3 {
+    margin-top: 38%;
+  }
 }

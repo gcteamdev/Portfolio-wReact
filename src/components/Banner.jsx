@@ -20,12 +20,12 @@ function Banner() {
           />
 
           <div className="d-block slogan-wrapper ">
-          <Bounce bottom duration={1500}>
-            <h1 className="d-md-none d-sm-block mobile-header spanSWE">
-              A <span /* className="spanSWE" */>software Engineer </span>based
-              in <br />
-              Seattle,WA.
-            </h1>
+            <Bounce bottom duration={1500}>
+              <h1 className="d-md-none d-sm-block mobile-header spanSWE">
+                A <span /* className="spanSWE" */>software Engineer </span>based
+                in <br />
+                Seattle,WA.
+              </h1>
             </Bounce>
             <Bounce bottom duration={1500}>
               <h1 className="slogan-main d-none d-md-block spanSWE">
@@ -57,15 +57,15 @@ function Banner() {
         </div>
       </Zoom>
       <Zoom duration={2500}>
-      <div className="aboutMeMobile d-sm-block d-md-none">
-        <h5 className="aboutme-h5">
-          Hello world! I am Hamza, a product & team-focused FullStack developer,
-          previously Lead React Developer Intern at ETGE. <br></br>
-          <br></br>I Have rock solid experience in building responsive complex
-          applications and I continue to learn new technologies to stay up to
-          date in the industry.
-        </h5>
-      </div>
+        <div className="aboutMeMobile d-sm-block d-md-none">
+          <h5 className="aboutme-h5">
+            Hello world! I am Hamza, a product & team-focused FullStack
+            developer, previously Lead React Developer Intern at ETGE. <br></br>
+            <br></br>I Have rock solid experience in building responsive complex
+            applications and I continue to learn new technologies to stay up to
+            date in the industry.
+          </h5>
+        </div>
       </Zoom>
       <div className="text-center banner-btns d-none d-lg-flex">
         <a

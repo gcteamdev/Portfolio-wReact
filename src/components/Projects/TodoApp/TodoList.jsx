@@ -64,7 +64,9 @@ function TodoList() {
         {/*  --for mobile-- */}
         <div className="taskiry-outer-mobile d-md-none d-sm-block">
           <h1 className="todoApp-Header">Taskiary</h1>
-          <h2 className="mobile-descriptionTodo bg-white col-12 rounded">Project management app! </h2>
+          <h2 className="mobile-descriptionTodo bg-white col-12 rounded">
+            Project management app!{' '}
+          </h2>
           <br />
           <h5 className="mobile-todo-tech bg-white col-10 rounded">
             Tech Stack: React.JS | JAVA | Spring Boot

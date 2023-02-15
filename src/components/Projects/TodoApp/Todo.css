@@ -1,11 +1,9 @@
-
 .todo-App {
-  background-color: #aaaaaa40;
-  height:100% ;
+  background-color: #919125;
+  height: 100%;
   color: #273044;
   z-index: 999;
   display: flex;
-  
 }
 .todoApp-Header {
   font-size: 60px;
@@ -18,15 +16,18 @@
 }
 .todo-pic {
   clip-path: polygon(0 0, 45% 0, 59% 100%, 0% 100%);
-  width:75%;
+  width: 75%;
 }
 .taskiry-outer {
   position: absolute;
   width: 40vw;
   right: 10%;
- 
+  margin-top: 2%;
+  background-color: #273044;
+  padding: 15px;
+  border-radius: 15px;
 }
-.taskiry-outer-mobile{
+.taskiry-outer-mobile {
   padding: 3%;
   margin-bottom: 20%;
   margin-top: 20%;
@@ -162,15 +163,15 @@
 }
 
 @media only screen and (min-width: 750px) {
-  .todoAppOuter{
-    margin:auto;
-    height:80vh
+  .todoAppOuter {
+    margin: auto;
+    height: 80vh;
   }
 }
 @media only screen and (min-width: 900px) {
-  .todoAppOuter{
-    margin:auto;
-    height:100vh !important;
+  .todoAppOuter {
+    margin: auto;
+    height: 100vh !important;
   }
 }
 @media only screen and (max-width: 280px) {
@@ -181,11 +182,8 @@
   }
 }
 @media only screen and (min-width: 1250px) {
-  
-  .todoAppOuter{
-    margin:auto;
-    height:100%;
-  
-  
+  .todoAppOuter {
+    margin: auto;
+    height: 100%;
   }
 }

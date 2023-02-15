@@ -1,20 +1,19 @@
-.Demo-page{
-    position:sticky;
-    height:100%;
-    background-color: #212734;
-    margin-bottom: 20%;
-    /* background-image: url("../assets/githubSum.png");
+.Demo-page {
+  position: sticky;
+  height: 100%;
+  background-color: #212734;
+  margin-bottom: 20%;
+  /* background-image: url("../assets/githubSum.png");
     background-attachment: fixed;
     background-size: cover; */
-    
 }
-.contact-outer{
-  width:100vw;
+.contact-outer {
+  width: 100vw;
   justify-content: space-evenly;
 }
-.video-react-video{
-  width:"20%"
+.video-react-video {
+  width: '20%';
 }
-.video-react-controls-enabled{
-  padding:30%;
+.video-react-controls-enabled {
+  padding: 30%;
 }
