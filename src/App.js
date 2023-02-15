@@ -19,8 +19,9 @@ function App() {
         <TodoList />
       </div>
       <Mindfullness />
-      <Demo />
       <LandingPage />
+      <Demo />
+      
       <Footer />
     </div>
   );

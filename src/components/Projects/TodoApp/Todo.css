@@ -1,5 +1,5 @@
 .todo-App {
-  background-color: #919125;
+  /*  background-color: #919125; */
   height: 100%;
   color: #273044;
   z-index: 999;
@@ -162,18 +162,6 @@
   margin-top: 15%;
 }
 
-@media only screen and (min-width: 750px) {
-  .todoAppOuter {
-    margin: auto;
-    height: 80vh;
-  }
-}
-@media only screen and (min-width: 900px) {
-  .todoAppOuter {
-    margin: auto;
-    height: 100vh !important;
-  }
-}
 @media only screen and (max-width: 280px) {
   .source-Todo-ctn {
     padding: 0;
@@ -181,9 +169,34 @@
     margin-top: -5%;
   }
 }
+
+@media only screen and (min-width: 750px) {
+  .todoAppOuter {
+    margin: auto;
+    height: 100%;
+    margin-bottom: 30%;
+    margin-top: 20%;
+    background-color: transparent !important;
+  }
+  .todo-pic {
+    display: none;
+  }
+  .taskiry-outer {
+    padding: 5%;
+    margin-top: -10%;
+  }
+}
+
 @media only screen and (min-width: 1250px) {
   .todoAppOuter {
     margin: auto;
     height: 100%;
+  }
+  .taskiry-outer {
+    padding: 5%;
+    margin-top: 0%;
+  }
+  .todoAppOuter {
+    margin-top: -20%;
   }
 }

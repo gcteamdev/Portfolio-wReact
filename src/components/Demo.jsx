@@ -15,9 +15,9 @@ function Demo() {
           ></iframe>
         </div>
       </MDBContainer>
-      <div className="text-center mt-5 mb-5">
+      <div className="text-center mt-5">
         <br></br>
-      <h1> Project-1 Demo: Lamina's Bakery</h1>
+        <h1> Project-1 Demo: Lamina's Bakery</h1>
       </div>
       <MDBContainer>
         <div className="ratio ratio-16x9">

@@ -15,12 +15,20 @@ function TodoList() {
   return (
     <div className="todoAppOuter">
       <div class="todo-App d-block d-md-flex" id="todo-app">
-        <img class="todo-pic d-none d-md-block " src={todoPic} alt="todo-pic" />
-        <Slide bottom duration={2200}>
+        <Slide bottom duration={2000}>
+          <div className="p-2">
+            <img
+              class="todo-pic d-none d-md-block "
+              src={todoPic}
+              alt="todo-pic"
+            />
+          </div>
+        </Slide>
+        <Slide bottom duration={1600}>
           <div className="taskiry-outer d-none d-md-block">
             <h1 className="todoApp-Header">Taskiary</h1>
-            <h4 className="bg-white col-6 rounded">Project management app!</h4>
-            <h5 className="mobile-todo-tech text-white col-6 rounded">
+            <h4 className="bg-white col-12 rounded">Project management app!</h4>
+            <h5 className="mobile-todo-tech text-white col-12 rounded">
               Tech Stack: React.JS | JAVA | Spring Boot
             </h5>
             <h5 className="mobile-todo-tech text-white">

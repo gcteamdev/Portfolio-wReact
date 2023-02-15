@@ -68,14 +68,14 @@
   .my-pic {
     border-radius: 15px;
     position: absolute !important;
-    left: 65%;
+    left: 50%;
     opacity: 0.7;
     top: 22%;
   }
   .banner-btns-sm {
-    margin-top: 40%;
+    margin-top: 20%;
     position: absolute;
-    left: 30%;
+    left: 25%;
     width: 50vw;
   }
   body {
@@ -104,14 +104,23 @@
   .slogan-ctn h1 {
     font-size: 65px;
   }
-  .contact-btn {
-    margin-top: -18%;
+  .slogan-main {
+    font-size: 58px !important;
+    width: 64vw;
+    padding: 10%;
+    margin-top: 5%;
+  }
+  .banner-btns {
+    left: 58% !important;
+    top: 60.5% !important;
+    position: absolute;
   }
 }
-@media only screen and (max-width: 1280px) {
+/* @media only screen and (min-width: 1281px) {
   .slogan-main {
     font-size: 98px !important;
-    width: 78.0vw;
+    width: 66vw;
+    margin-top: 5%;
   }
   .aboutMe {
     position: absolute;
@@ -126,34 +135,7 @@
     top: 80.5% !important;
     position: absolute;
   }
-}
-@media only screen and (min-width: 1281px) {
-  .slogan-wrapper {
-    padding: 0;
-    margin-top: 2%;
-    left: 0.5%;
-    z-index: 0;
-  }
-  .slogan-main {
-    font-size: 95px !important;
-  }
-  .my-pic {
-    left: 65%;
-    padding: 1%;
-  }
-  .slogan-ctn h1 {
-    font-size: 75px;
-  }
-
-  .banner-btns {
-    background-color: #20289165;
-    position: absolute;
-    border-radius: 15px;
-    display: flex !important;
-    flex-direction: row;
-    align-items: center;
-  }
-}
+} */
 
 /* --animation bg-- */
 
@@ -275,4 +257,60 @@ ul {
   z-index: 9;
   padding: 5.5%;
   width: 60vw;
+}
+
+@media only screen and (min-width: 1281px) {
+  .slogan-wrapper {
+    padding: 0;
+    margin-top: 2%;
+    left: 0.5%;
+    z-index: 0;
+  }
+  .slogan-main {
+    font-size: 90px !important;
+    position: absolute;
+    right: -5%;
+    top: -100px;
+  }
+  .my-pic {
+    left: 50%;
+    padding: 5%;
+  }
+  .slogan-ctn h1 {
+    font-size: 75px;
+  }
+
+  .banner-btns {
+    background-color: #20289165;
+    position: absolute;
+    border-radius: 15px;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+/* --floating-- */
+.my-pic-container {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  right: 1%;
+  bottom: 5%;
+  left: 10%;
+}
+.my-pic {
+  position: relative;
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
 }

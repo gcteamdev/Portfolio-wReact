@@ -3,16 +3,23 @@ import './Banner.css';
 import myPhoto from '../assets/myAvatar (1).png';
 import Bounce from 'react-reveal/Bounce';
 import Slide from 'react-reveal/Slide';
-import Zoom from 'react-reveal/Zoom';
+//import Zoom from 'react-reveal/Zoom';
 
 function Banner() {
   return (
     <>
       <div className="animation-area">
         <div className="slogan-ctn">
-          <Slide top duration={1700}>
-            <img className="my-pic d-none d-md-block" src={myPhoto} alt="pic" />
+          <Slide bottom duration={2700}>
+            <div className="my-pic-container">
+              <img
+                className="my-pic d-none d-md-block bg-fluid "
+                src={myPhoto}
+                alt="pic"
+              />
+            </div>
           </Slide>
+
           <img
             className=" d-md-none d-sm-block mobile-pic"
             src={myPhoto}
@@ -20,14 +27,14 @@ function Banner() {
           />
 
           <div className="d-block slogan-wrapper ">
-            <Bounce bottom duration={1500}>
+            <Bounce bottom duration={1700}>
               <h1 className="d-md-none d-sm-block mobile-header spanSWE">
                 A <span /* className="spanSWE" */>software Engineer </span>based
                 in <br />
                 Seattle,WA.
               </h1>
             </Bounce>
-            <Bounce bottom duration={1500}>
+            <Bounce bottom duration={1600}>
               <h1 className="slogan-main d-none d-md-block spanSWE">
                 A <span /* className="spanSWE" */>software Engineer </span>{' '}
                 <br />
@@ -36,16 +43,8 @@ function Banner() {
             </Bounce>
           </div>
         </div>
-        <ul className="box-area d-none d-lg-block">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
       </div>
-      <Zoom duration={2500}>
+      <Slide bottom duration={2000}>
         <div className="aboutMe d-none d-md-block">
           <h5>
             Hello world! I am Hamza, a product & team-focused FullStack
@@ -55,8 +54,8 @@ function Banner() {
             trends and current standards in the industry.
           </h5>
         </div>
-      </Zoom>
-      <Zoom duration={2500}>
+      </Slide>
+      <Slide bottom duration={2000}>
         <div className="aboutMeMobile d-sm-block d-md-none">
           <h5 className="aboutme-h5">
             Hello world! I am Hamza, a product & team-focused FullStack
@@ -66,7 +65,7 @@ function Banner() {
             date in the industry.
           </h5>
         </div>
-      </Zoom>
+      </Slide>
       <div className="text-center banner-btns d-none d-lg-flex">
         <a
           className=" btn btn-lg text-dark bg-warning"
