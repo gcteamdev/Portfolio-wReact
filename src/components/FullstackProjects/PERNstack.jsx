@@ -35,9 +35,8 @@ function PERNstack() {
           <Slide bottom duration={1600}>
             <div className="p-5 bakeryDetails">
               <h1 className="orcaProjecth1 ">
-                {' '}
                 <span className="orcaH1Span">Lamina's Bakes</span> <br></br>
-                <span className="bg-white rounded">
+                <span className="bg-white rounded bakeryDetails-Span">
                   An advanced shopping cart website.
                 </span>
               </h1>

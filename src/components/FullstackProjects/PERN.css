@@ -15,6 +15,7 @@
   z-index: 99999;
   left: 35%;
   position: absolute;
+  /* font-family: cursive; */
 }
 .project-1 {
   height: 100%;
@@ -83,6 +84,14 @@
   background-color: azure;
   border-radius: 5px;
 }
+.bakeryDetails-Span{
+  font-size: 25px;
+}
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
   .orcaProjWrapper {
@@ -121,5 +130,27 @@
   }
   .aboutme-h5 {
     font-size: 15px;
+  }
+}
+@media only screen and (min-width: 965px){
+  .projects {
+    color: #cfb807bc !important;
+    font-size: 85px !important;
+    z-index: 99999;
+    left: 30%;
+    position: absolute;
+   /*  font-family: cursive; */
+    bottom:-20%
+  }
+}
+@media only screen and (min-width: 1300px){
+  .projects {
+    color: #cfb807bc !important;
+    font-size: 70px !important;
+    z-index: 99999;
+    left: 37%;
+    position: absolute;/* 
+    font-family: cursive; */
+    bottom:-30%
   }
 }

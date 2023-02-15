@@ -44,18 +44,18 @@
   position: absolute;
   z-index: 9999;
 }
-@media only screen and (max-width: 850px) {
-  .banner-btns-sm {
-    z-index: 999;
-    overflow-x: hidden;
-    position: absolute;
-    left: 55%;
-    top: 65%;
-    justify-content: space-evenly;
-    display: block;
-    height: 40vh;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 650px) {
   .mobile-pic {
     position: absolute !important;
@@ -83,6 +83,18 @@
     box-sizing: border-box;
   }
 }
+@media only screen and (max-width: 850px) {
+  .banner-btns-sm {
+    z-index: 999;
+    overflow-x: hidden;
+    position: absolute;
+    left: 55%;
+    top: 65%;
+    justify-content: space-evenly;
+    display: block;
+    height: 40vh;
+  }
+}
 
 /* for desktop */
 @media only screen and (min-width: 965px) {
@@ -106,7 +118,7 @@
   }
   .slogan-main {
     font-size: 58px !important;
-    width: 64vw;
+    width: 68.8vw;
     padding: 10%;
     margin-top: 5%;
   }
@@ -116,26 +128,6 @@
     position: absolute;
   }
 }
-/* @media only screen and (min-width: 1281px) {
-  .slogan-main {
-    font-size: 98px !important;
-    width: 66vw;
-    margin-top: 5%;
-  }
-  .aboutMe {
-    position: absolute;
-    left: 45%;
-  }
-  .my-pic {
-    position: absolute;
-    width: 34%;
-  }
-  .banner-btns {
-    left: 50% !important;
-    top: 80.5% !important;
-    position: absolute;
-  }
-} */
 
 /* --animation bg-- */
 
@@ -267,9 +259,9 @@ ul {
     z-index: 0;
   }
   .slogan-main {
-    font-size: 90px !important;
+    font-size: 80px !important;
     position: absolute;
-    right: -5%;
+    right: -14%;
     top: -100px;
   }
   .my-pic {
