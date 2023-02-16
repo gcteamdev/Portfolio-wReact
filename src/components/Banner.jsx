@@ -3,14 +3,14 @@ import './Banner.css';
 import myPhoto from '../assets/myAvatar (1).png';
 import Bounce from 'react-reveal/Bounce';
 import Slide from 'react-reveal/Slide';
-import Zoom from 'react-reveal/Zoom';
+//import Zoom from 'react-reveal/Zoom';
 
 function Banner() {
   return (
     <>
       <div className="animation-area">
         <div className="slogan-ctn">
-          <Zoom duration={2700}>
+         {/*  <Zoom duration={2700}> */}
             <div className="my-pic-container">
               <img
                 className="my-pic d-none d-md-block bg-fluid "
@@ -18,8 +18,8 @@ function Banner() {
                 alt="pic"
               />
             </div>
-          </Zoom>
-
+         {/*  </Zoom>
+ */}
           <img
             className=" d-md-none d-sm-block mobile-pic"
             src={myPhoto}
