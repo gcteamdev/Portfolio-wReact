@@ -50,8 +50,7 @@ function Banner() {
             Hello world! I am Hamza, a product & team-focused FullStack
             developer, previously Lead React Developer Intern at ETGE. I Have
             rock solid experience in building responsive complex applications
-            and I continue to learn new technologies to stay up to date with
-            trends and current standards in the industry.
+            and I strive to keep abreast of the latest trends and industry standards by consistently updating my knowledge and mastering new technologies.
           </h5>
         </div>
       </Slide>
@@ -61,8 +60,7 @@ function Banner() {
             Hello world! I am Hamza, a product & team-focused FullStack
             developer, previously Lead React Developer Intern at ETGE. <br></br>
             <br></br>I Have rock solid experience in building responsive complex
-            applications and I continue to learn new technologies to stay up to
-            date in the industry.
+            applications and I strive to keep abreast of the latest trends and industry standards by consistently updating my knowledge and mastering new technologies.
           </h5>
         </div>
       </Slide>
