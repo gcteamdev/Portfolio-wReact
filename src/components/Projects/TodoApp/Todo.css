@@ -191,6 +191,7 @@
   .todoAppOuter {
     margin: auto;
     height: 100%;
+    background-color: #273044 !important;
   }
   .taskiry-outer {
     padding: 5%;
