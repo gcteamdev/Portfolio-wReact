@@ -8,7 +8,7 @@ function Demo() {
     <div className="Demo-page" id="WebApp">
       <div className="text-center text-dark p-3 bg-warning mb-5">
         <Slide bottom duration={1800}>
-          <h1>Demo Gallery...</h1>
+          <h1 className="display-4 demo">Demo Gallery...</h1>
         </Slide>
       </div>
 
