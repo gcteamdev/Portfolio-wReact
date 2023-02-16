@@ -293,7 +293,7 @@ ul {
 .my-pic {
   position: relative;
   animation-name: float;
-  animation-duration: 3s;
+  animation-duration: 2.8s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
