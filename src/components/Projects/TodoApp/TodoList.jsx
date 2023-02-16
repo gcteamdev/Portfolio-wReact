@@ -24,9 +24,10 @@ function TodoList() {
             />
           </div>
         </Slide>
-        <Slide bottom duration={1600}>
-          <div className="taskiry-outer d-none d-md-block">
-            <h1 className="todoApp-Header">Taskiary</h1>
+
+        <div className="taskiry-outer d-none d-md-block">
+          <h1 className="todoApp-Header">Taskiary</h1>
+          <Slide bottom duration={1600}>
             <h4 className="bg-white col-12 rounded">Project management app!</h4>
             <h5 className="mobile-todo-tech text-white col-12 rounded">
               Tech Stack: React.JS | JAVA | Spring Boot
@@ -67,8 +68,9 @@ function TodoList() {
                 Watch Demo
               </a>
             </div>
-          </div>
-        </Slide>
+          </Slide>
+        </div>
+
         {/*  --for mobile-- */}
         <div className="taskiry-outer-mobile d-md-none d-sm-block">
           <h1 className="todoApp-Header">Taskiary</h1>

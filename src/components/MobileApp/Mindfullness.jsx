@@ -3,7 +3,7 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './Mindfullness.css';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 
 function Mindfullness() {
   const alertmsg = () => {
@@ -16,7 +16,7 @@ function Mindfullness() {
     <div className="mobile-App">
       <br /> <br />
       <br />
-      <Bounce bottom duration={2200}>
+      <Fade bottom duration={2200}>
         <h1 className="mobile-app-header d-none d-lg-block">
           Mindfulness App
         </h1>
@@ -24,7 +24,7 @@ function Mindfullness() {
           Mindfulness App
         </h1>
         <h3 className="mb-3"> Tech stack: React-Native, Redux, Expo-CLI </h3>
-      </Bounce>
+      </Fade>
       <div className="d-none d-lg-block">
         <Slide>
           <div className="each-slide-effect p-5">
