@@ -5,9 +5,10 @@
 }
 
 .projectCtn {
-  background-color: #202735;
+  background-color: #c6c8cb !important;
   z-index: 9999;
   height: 20vh;
+  
 }
 .projects {
   color: #cfb807bc !important;
@@ -22,7 +23,6 @@
   margin-bottom: 10%;
 }
 .projects-Mobile {
-  color: #043b68 !important;
   font-size: 50px !important;
   z-index: 99999;
   left: 5%;
@@ -71,11 +71,11 @@
 .orcaProjecth1 {
   color: #202735;
   font-size: 40px;
-  z-index: 99999;
+  z-index: 9999;
 }
 
 .orcaImg {
-  z-index: 99999;
+  z-index: 9999;
   width: 50%;
   left: 5%;
 }
@@ -116,6 +116,11 @@
   }
   .projectCtn {
     margin-top: -3.5%;
+    background-color: #202735 !important;
+  }
+  .projects-Mobile{
+    top: 110%;
+    color:#e2e1d2 !important
   }
   .project-1 {
     position: relative;
@@ -134,23 +139,30 @@
 }
 @media only screen and (min-width: 965px){
   .projects {
-    color: #cfb807bc !important;
+    color: #12100193 !important;
     font-size: 85px !important;
     z-index: 99999;
     left: 30%;
     position: absolute;
    /*  font-family: cursive; */
-    bottom:-20%
+    bottom:-15%
   }
 }
 @media only screen and (min-width: 1300px){
   .projects {
     color: #cfb807bc !important;
     font-size: 70px !important;
-    z-index: 99999;
     left: 37%;
-    position: absolute;/* 
-    font-family: cursive; */
-    bottom:-30%
+    position: absolute;
+    bottom:-60%;
+    border-bottom:2px solid grey !important;
+
+  }
+  .projectCtn{
+    border-bottom:1px solid grey !important;
+    height:20vh;
+    margin-bottom: 10%;
+
+    
   }
 }

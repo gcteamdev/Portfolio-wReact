@@ -41,7 +41,7 @@ function Banner() {
       </div>
       
       <Slide bottom duration={2000}>
-        <div className="aboutMe d-none d-md-block">
+        <div className="aboutMe d-none d-lg-block">
        
           <h5>
             Hello world! I am Hamza, a product & team-focused FullStack
@@ -54,7 +54,7 @@ function Banner() {
         </div>
       </Slide>
       <Slide bottom duration={2000}>
-        <div className="aboutMeMobile d-sm-block d-md-none col-12">
+        <div className="aboutMeMobile d-sm-block d-lg-none col-12">
         <img
               className=" d-md-none d-sm-block mb-2 "
               src={myPhoto}

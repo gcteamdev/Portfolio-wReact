@@ -6,18 +6,7 @@
   overflow-x: hidden;
 }
 
-.vector {
-  width: 100vw;
-  position: absolute;
-  top: 70%;
-  height: 90vh;
-}
-.vector-2 {
-  width: 100vw;
-  position: absolute;
-  top: 60%;
-  height: 60vh;
-}
+
 .vector-3 {
   width: 100vw;
   position: absolute;

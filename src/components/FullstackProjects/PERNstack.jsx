@@ -17,14 +17,16 @@ function PERNstack() {
 
   return (
     <div className="PERNpage" id="projects">
-      <div className="projectCtn bg-light">
+     
         <Slide bottom duration={1800}>
+        <div className="projectCtn ">
           <h1 className="projects d-none d-lg-block">PROJECTS...</h1>
+        </div>
         </Slide>
         <Slide bottom duration={1800}>
         <h1 className="projects-Mobile d-sm-block d-lg-none">PROJECTS...</h1>
         </Slide>
-      </div>
+      
       <div className="project-1">
         <div className={colorChange ? 'bakeryProjWrapper' : 'BgColorChange'}>
           <Slide bottom duration={1600}>

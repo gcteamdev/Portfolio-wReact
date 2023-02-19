@@ -18,7 +18,7 @@ import {
 function ColorSchemesExample() {
   const [showNavColorSecond, setShowNavColorSecond] = useState(false);
   return (
-    <>
+    <div className="navBar">
       <MDBNavbar expand="lg" dark bgColor="dark">
         <MDBContainer fluid>
           <div className="button btn-white">
@@ -73,17 +73,17 @@ function ColorSchemesExample() {
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink
-                  href="https://dribbble.com/Hamja188"
+                  href="mailto:contact@gcteam.dev"
                   target="_blank"
                 >
-                  Design
+                  Contact
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
-    </>
+    </div>
   );
 }
 
