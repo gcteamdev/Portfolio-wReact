@@ -117,10 +117,11 @@
   .projectCtn {
     margin-top: -3.5%;
     background-color: #202735 !important;
+    margin-bottom: 30%;
   }
   .projects-Mobile{
-    top: 110%;
-    color:#e2e1d2 !important
+    top: 120%;
+    color:#e2e1d2 !important;
   }
   .project-1 {
     position: relative;

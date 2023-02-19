@@ -140,7 +140,9 @@ nav {
   z-index: 9999;
   background-color: #273044;
 }
-
+.toggle{
+  z-index:9999
+}
 @media only screen and (min-width: 1281px) {
   .navBar{
     position: fixed !important;

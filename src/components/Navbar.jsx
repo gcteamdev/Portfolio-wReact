@@ -43,7 +43,7 @@ function ColorSchemesExample() {
             aria-expanded="false"
             aria-label="Toggle navigation"
             onClick={() => setShowNavColorSecond(!showNavColorSecond)}
-            className="mr-5 bg-white"
+            className="mr-5 bg-white toggle"
           >
             <MDBIcon icon="bars" fas />
           </MDBNavbarToggler>
