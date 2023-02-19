@@ -21,8 +21,7 @@ function App() {
       <Mindfullness />
       <LandingPage />
       <Demo />
-      
-      <Footer />
+     <Footer />
     </div>
   );
 }

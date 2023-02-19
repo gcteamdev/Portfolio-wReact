@@ -7,7 +7,7 @@ import Slide from 'react-reveal/Slide';
 
 function Banner() {
   return (
-    <>
+    <div className= "bannerPageWrapper">
       <div className="animation-area">
         <div className="slogan-ctn">
          {/*  <Zoom duration={2700}> */}
@@ -90,7 +90,7 @@ function Banner() {
           Projects
         </a>
       </div>
-    </>
+    </div>
   );
 }
 
