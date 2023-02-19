@@ -58,14 +58,27 @@
 
 
 @media only screen and (max-width: 650px) {
-  .mobile-pic {
-    position: absolute !important;
-    right: 5% !important;
+  
+  .bannerPageWrapper img{
+    width:50%;
   }
   .bannerPageWrapper{
     width: 100% !important;
     position: relative;
   }
+  .aboutMeMobile{
+    top:-45%;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(91, 9, 163, 0.197);
+    width:100%;
+  }
+  .mobileBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
 }
 
 /* For Ipad media size */
@@ -276,14 +289,14 @@ ul {
   .my-pic-container {
     left: 50%;
     padding: 5%;
-    top:-10%
+    top:10%
   }
   .slogan-ctn h1 {
     font-size: 75px;
   }
 
   .banner-btns {
-    background-color: #20289165;
+  /*   background-color: #20289165; */
     position: absolute;
     border-radius: 15px;
     display: flex !important;
@@ -294,7 +307,7 @@ ul {
     
   }
   .aboutMe{
-    top:28%
+    top:48%
   }
 }
 /* --floating-- */
