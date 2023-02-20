@@ -5,7 +5,7 @@
 }
 
 .projectCtn {
-  background-color: #c6c8cb !important;
+/*   background-color: #c6c8cb !important; */
   z-index: 9999;
   height: 20vh;
   
@@ -140,13 +140,17 @@
 }
 @media only screen and (min-width: 965px){
   .projects {
-    color: #12100193 !important;
-    font-size: 85px !important;
+    color: #dac31393 !important;
+    font-size: 55px !important;
     z-index: 99999;
     left: 30%;
     position: absolute;
-   /*  font-family: cursive; */
-    bottom:-15%
+    bottom:-20%;
+    border-bottom:2px solid grey !important;
+
+  }
+  .projectCtn{
+    background-color: none !important;
   }
 }
 @media only screen and (min-width: 1300px){
