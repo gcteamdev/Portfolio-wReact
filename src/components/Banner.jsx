@@ -96,7 +96,7 @@ function Banner() {
           Contact Me!
         </a>
         <a className=" btn btn-lg btn-dark" href="#projects">
-          Projects
+         View Projects
         </a>
       </div>
     </div>
