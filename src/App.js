@@ -18,7 +18,7 @@ function App() {
         <Svg />
         <TodoList />
       </div>
-      <Mindfullness />
+     {/*  <Mindfullness /> */}
       <LandingPage />
       <Demo />
      <Footer />
